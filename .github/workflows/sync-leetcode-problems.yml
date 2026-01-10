@@ -1,0 +1,45 @@
+name: Sync LeetCode Problem Map
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # Every Sunday at 9:00 AM UTC (change if you want)
+    - cron: "0 9 * * 0"
+
+permissions:
+  contents: write
+
+jobs:
+  sync-problems:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Fetch latest LeetCode problems
+        run: python .github/scripts/fetch_leetcode_problems.py
+
+      # Optional: regenerate README after the map updates (recommended)
+      - name: Update README from map + folders
+        run: python .github/scripts/update_readme.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add .github/data/leetcode_problems.json README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Sync LeetCode problem map [skip ci]"
+          git push
