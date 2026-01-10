@@ -1,112 +1,112 @@
 from __future__ import annotations
 
 import json
-import time
+import sys
 import urllib.request
+import urllib.error
 from pathlib import Path
 
-
 OUT_PATH = Path(".github/data/leetcode_problems.json")
-GRAPHQL_URL = "https://leetcode.com/graphql"
+API_URL = "https://leetcode.com/api/problems/all/"
 
-# LeetCode’s site uses this query for problem lists.
-QUERY = """
-query problemsetQuestionList($categorySlug: String, $skip: Int, $limit: Int, $filters: QuestionListFilterInput) {
-  problemsetQuestionList: problemsetQuestionList(categorySlug: $categorySlug, skip: $skip, limit: $limit, filters: $filters) {
-    total: total
-    questions: questions {
-      title
-      titleSlug
-      difficulty
-      frontendQuestionId
-    }
-  }
+DIFFICULTY_MAP = {
+    1: "Easy",
+    2: "Medium",
+    3: "Hard",
 }
-"""
 
-# Pagination settings
-LIMIT = 100
-SLEEP_SECONDS = 0.25  # be polite
+# Change to True if you want paid-only problems included
+INCLUDE_PAID_ONLY = False
 
 
-def post_graphql(payload: dict) -> dict:
-    data = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(
-        GRAPHQL_URL,
-        data=data,
-        headers={
-            "Content-Type": "application/json",
-            # User-Agent matters sometimes; keep it simple
-            "User-Agent": "github-actions-bot/leetcode-solutions",
-        },
-        method="POST",
-    )
-
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        body = resp.read().decode("utf-8")
-        return json.loads(body)
+def log(msg: str) -> None:
+    print(f"[leetcode-sync] {msg}", flush=True)
 
 
 def fetch_all() -> list[dict]:
-    all_rows: list[dict] = []
+    log(f"Fetching problem list from {API_URL}")
 
-    skip = 0
-    total = None
+    req = urllib.request.Request(
+        API_URL,
+        headers={
+            "User-Agent": "Mozilla/5.0 (leetcode-solutions)",
+            "Accept": "application/json",
+        },
+        method="GET",
+    )
 
-    while True:
-        payload = {
-            "query": QUERY,
-            "variables": {
-                "categorySlug": "",
-                "skip": skip,
-                "limit": LIMIT,
-                "filters": {},  # can add tags/difficulty filters later
-            },
-        }
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            status = resp.status
+            raw = resp.read().decode("utf-8")
+            log(f"HTTP {status} received ({len(raw)} bytes)")
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        log(f"HTTP ERROR {e.code}")
+        log("Response body (truncated):")
+        log(body[:500])
+        sys.exit(1)
+    except urllib.error.URLError as e:
+        log(f"NETWORK ERROR: {e.reason}")
+        sys.exit(1)
 
-        res = post_graphql(payload)
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError as e:
+        log("FAILED to parse JSON response")
+        log(str(e))
+        log("Raw response (truncated):")
+        log(raw[:500])
+        sys.exit(1)
 
-        if "errors" in res:
-            raise RuntimeError(f"GraphQL errors: {res['errors']}")
+    pairs = data.get("stat_status_pairs")
+    if not isinstance(pairs, list):
+        log("Unexpected API response shape: missing 'stat_status_pairs'")
+        log(f"Top-level keys: {list(data.keys())}")
+        sys.exit(1)
 
-        block = res["data"]["problemsetQuestionList"]
-        if total is None:
-            total = int(block["total"])
+    rows: list[dict] = []
+    skipped_paid = 0
+    skipped_invalid = 0
 
-        questions = block["questions"] or []
-        if not questions:
-            break
+    for item in pairs:
+        if not INCLUDE_PAID_ONLY and item.get("paid_only"):
+            skipped_paid += 1
+            continue
 
-        for q in questions:
-            # Some fields come back as strings; normalize carefully
-            fid = q.get("frontendQuestionId")
-            try:
-                fid_int = int(fid) if fid is not None else None
-            except ValueError:
-                fid_int = None
+        stat = item.get("stat", {})
+        diff = item.get("difficulty", {})
 
-            all_rows.append(
-                {
-                    "id": fid_int,
-                    "title": q.get("title", ""),
-                    "difficulty": q.get("difficulty", ""),
-                    "slug": q.get("titleSlug", ""),
-                }
-            )
+        qid = stat.get("frontend_question_id")
+        title = stat.get("question__title")
+        slug = stat.get("question__title_slug")
+        level = diff.get("level")
 
-        skip += LIMIT
-        if total is not None and skip >= total:
-            break
+        if not isinstance(qid, int) or not title:
+            skipped_invalid += 1
+            continue
 
-        time.sleep(SLEEP_SECONDS)
+        rows.append(
+            {
+                "id": qid,
+                "title": title,
+                "difficulty": DIFFICULTY_MAP.get(level, ""),
+                "slug": slug or "",
+            }
+        )
 
-    # Drop any bad rows and sort by id
-    cleaned = [r for r in all_rows if isinstance(r.get("id"), int) and r.get("title")]
-    cleaned.sort(key=lambda r: r["id"])
-    return cleaned
+    rows.sort(key=lambda r: r["id"])
+
+    log(f"Parsed {len(rows)} problems")
+    log(f"Skipped paid-only problems: {skipped_paid}")
+    log(f"Skipped invalid rows: {skipped_invalid}")
+
+    return rows
 
 
 def main() -> None:
+    log("Starting LeetCode problem sync")
+
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     latest = fetch_all()
@@ -115,11 +115,11 @@ def main() -> None:
     if OUT_PATH.exists():
         old_text = OUT_PATH.read_text(encoding="utf-8")
         if old_text == new_text:
-            print("leetcode_problems.json unchanged.")
+            log("leetcode_problems.json unchanged")
             return
 
     OUT_PATH.write_text(new_text, encoding="utf-8")
-    print(f"Wrote {len(latest)} problems to {OUT_PATH}")
+    log(f"Wrote {len(latest)} problems to {OUT_PATH}")
 
 
 if __name__ == "__main__":
