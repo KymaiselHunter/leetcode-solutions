@@ -1,4 +1,4 @@
-<h3><a href=https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/?envType=daily-question&envId=2026-01-10>Minimum ASCII Delete Sum for Two Strings</a></h3>
+<h3><a href=https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/submissions/1880515273/>Minimum ASCII Delete Sum for Two Strings</a></h3>
 <p><p>Given two strings <code>s1</code> and&nbsp;<code>s2</code>, return <em>the lowest <strong>ASCII</strong> sum of deleted characters to make two strings equal</em>.</p>
 
 <p>&nbsp;</p>
