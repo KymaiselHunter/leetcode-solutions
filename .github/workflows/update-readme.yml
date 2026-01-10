@@ -3,17 +3,13 @@ name: Update README
 on:
   push:
     branches: [main]
-    paths:
-      - "leetcode/**"
-      - ".github/scripts/update_readme.py"
-      - ".github/workflows/update-readme.yml"
 
 permissions:
   contents: write
 
 jobs:
   update-readme:
-    # Extra safety: don't run on the bot's own commit
+    # Prevent the bot’s README commit from re-running itself
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
