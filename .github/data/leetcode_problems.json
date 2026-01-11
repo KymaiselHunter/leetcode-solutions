@@ -18316,5 +18316,29 @@
     "title": "Minimum Cost to Merge Sorted Lists",
     "difficulty": "Hard",
     "slug": "minimum-cost-to-merge-sorted-lists"
+  },
+  {
+    "id": 3803,
+    "title": "Count Residue Prefixes",
+    "difficulty": "Easy",
+    "slug": "count-residue-prefixes"
+  },
+  {
+    "id": 3804,
+    "title": "Number of Centered Subarrays",
+    "difficulty": "Medium",
+    "slug": "number-of-centered-subarrays"
+  },
+  {
+    "id": 3805,
+    "title": "Count Caesar Cipher Pairs",
+    "difficulty": "Medium",
+    "slug": "count-caesar-cipher-pairs"
+  },
+  {
+    "id": 3806,
+    "title": "Maximum Bitwise AND After Increment Operations",
+    "difficulty": "Hard",
+    "slug": "maximum-bitwise-and-after-increment-operations"
   }
 ]
