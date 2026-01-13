@@ -31,4 +31,4 @@ class Solution:
 
         # print(total)
         recur(root)
-        return output
+        return output % (pow(10,9) + 7)
