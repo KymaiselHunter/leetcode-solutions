@@ -6,10 +6,15 @@
 #         self.right = right
 class Solution:
     def maxLevelSum(self, root: Optional[TreeNode]) -> int:
-        level = 1
-        output = None
-        max = None
-        breadth = [root]
+        level = 2
+        output = 1
+        max = root.val
+        breadth = []
+
+        if root.left:
+            breadth.append(root.left)
+        if root.right:
+            breadth.append(root.right)
 
         while breadth:
             sum = 0
@@ -24,8 +29,8 @@ class Solution:
                     breadth.append(curr.right)
 
                 breadth.pop(0)
-            print(level, sum)
-            if not output or not max or sum > max:
+            # print(level, sum)
+            if sum > max:
                 output = level
                 max = sum
             level += 1
