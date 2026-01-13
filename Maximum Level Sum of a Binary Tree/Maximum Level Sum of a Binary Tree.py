@@ -7,7 +7,7 @@
 class Solution:
     def maxLevelSum(self, root: Optional[TreeNode]) -> int:
         level = 1
-        output = float('-inf')
+        output = 1
         max = float('-inf')
         breadth = [root]
 
