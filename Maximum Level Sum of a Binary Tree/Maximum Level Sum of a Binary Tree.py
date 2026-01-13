@@ -7,8 +7,8 @@
 class Solution:
     def maxLevelSum(self, root: Optional[TreeNode]) -> int:
         level = 1
-        output = 1
-        max = 0
+        output = None
+        max = None
         breadth = [root]
 
         while breadth:
@@ -24,7 +24,8 @@ class Solution:
                     breadth.append(curr.right)
 
                 breadth.pop(0)
-            if sum > max:
+            print(level, sum)
+            if not output or not max or sum > max:
                 output = level
                 max = sum
             level += 1
