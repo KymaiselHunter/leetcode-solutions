@@ -4,9 +4,9 @@ class Solution:
 
         for point in points:
             dist = math.sqrt(pow(point[0], 2) + pow(point[1],2))
-            heapq.heappush(queue, (dist, point))
+            heapq.heappush(queue, (-dist, point))
 
             while len(queue) > k:
                 heapq.heappop(queue)
 
-        return queue
+        return [pair[1] for pair in queue]
