@@ -9,8 +9,9 @@ class KthLargest:
 
     def add(self, val: int) -> int:
         heapq.heappush(self.queue, val)
-        heapq.heappop(self.queue)
-        # print(self.queue)
+        if len(self.queue) > self.index:
+            heapq.heappop(self.queue)
+        
         return self.queue[0]
 
 
