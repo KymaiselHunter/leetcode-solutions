@@ -37,7 +37,7 @@ class Solution:
                 cache = set()
                 for k in range(i, i+3):
                     for l in range(j,j+3):
-                        if grid[k][l] in cache:
+                        if grid[k][l] in cache or grid[k][l] > 9:
                             invalid = True
                             break
                         
