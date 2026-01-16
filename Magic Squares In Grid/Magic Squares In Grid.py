@@ -7,6 +7,7 @@ class Solution:
 
         for i in range(len(grid)-2):
             for j in range(len(grid[i])-2):
+                print(i,j)
                 invalid = False
                 num = grid[i][j] + grid[i][j+1] + grid[i][j+2]
                 for k in range(1,3):
@@ -22,16 +23,11 @@ class Solution:
                 if invalid:
                     continue
                 if grid[i][j] + grid[i+1][j+1] + grid[i+2][j+2] != num:
-                    invalid = True
-                    break
-                if invalid:
                     continue
+                    
                 if grid[i+2][j] + grid[i+1][j+1] + grid[i][j+2] != num:
-                    invalid = True
-                    break
-                if invalid:
                     continue
-                # if i == 0 and j == 0: 
+                # if i == 0 and j == 3: 
                 #     print('huh')
 
                 cache = set()
@@ -47,6 +43,7 @@ class Solution:
                 if invalid:
                     continue
                 counter += 1
+                # print(i,j)
 
         return counter
 
