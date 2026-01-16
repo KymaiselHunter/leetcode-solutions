@@ -9,8 +9,6 @@ class Solution:
             for j in range(len(grid[i])-2):
                 invalid = False
                 num = grid[i][j] + grid[i][j+1] + grid[i][j+2]
-                # if i == 0 and j == 0: 
-                #     print('huh')
                 for k in range(1,3):
                     if grid[k+i][j] + grid[k+i][j+1] + grid[k+i][j+2] != num:
                         invalid = True
@@ -31,6 +29,21 @@ class Solution:
                 if grid[i+2][j] + grid[i+1][j+1] + grid[i][j+2] != num:
                     invalid = True
                     break
+                if invalid:
+                    continue
+                # if i == 0 and j == 0: 
+                #     print('huh')
+
+                cache = set()
+                for k in range(i, i+3):
+                    for l in range(j,j+3):
+                        if grid[k][l] in cache:
+                            invalid = True
+                            break
+                        
+                        cache.add(grid[k][l])
+                    if invalid == True:
+                        break
                 if invalid:
                     continue
                 counter += 1
