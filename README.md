@@ -19,5 +19,6 @@
 | 1161 | Maximum Level Sum of a Binary Tree | Medium | [Maximum Level Sum of a Binary Tree.py](Maximum%20Level%20Sum%20of%20a%20Binary%20Tree/Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py) | null | [OPEN](Maximum%20Level%20Sum%20of%20a%20Binary%20Tree) |
 | 1266 | Minimum Time Visiting All Points | Easy | [Minimum Time Visiting All Points.py](Minimum%20Time%20Visiting%20All%20Points/Minimum%20Time%20Visiting%20All%20Points.py) | null | [OPEN](Minimum%20Time%20Visiting%20All%20Points) |
 | 1339 | Maximum Product of Splitted Binary Tree | Medium | [Maximum Product of Splitted Binary Tree.py](Maximum%20Product%20of%20Splitted%20Binary%20Tree/Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | null | [OPEN](Maximum%20Product%20of%20Splitted%20Binary%20Tree) |
+| 1351 | Count Negative Numbers in a Sorted Matrix | Easy | [Count Negative Numbers in a Sorted Matrix.py](Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix/Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | null | [OPEN](Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix) |
 
 <!-- SOLUTIONS:END -->
