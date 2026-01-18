@@ -18340,5 +18340,59 @@
     "title": "Maximum Bitwise AND After Increment Operations",
     "difficulty": "Hard",
     "slug": "maximum-bitwise-and-after-increment-operations"
+  },
+  {
+    "id": 3808,
+    "title": "Find Emotionally Consistent Users",
+    "difficulty": "Medium",
+    "slug": "find-emotionally-consistent-users"
+  },
+  {
+    "id": 3809,
+    "title": "Best Reachable Tower",
+    "difficulty": "Medium",
+    "slug": "best-reachable-tower"
+  },
+  {
+    "id": 3810,
+    "title": "Minimum Operations to Reach Target Array",
+    "difficulty": "Medium",
+    "slug": "minimum-operations-to-reach-target-array"
+  },
+  {
+    "id": 3811,
+    "title": "Number of Alternating XOR Partitions",
+    "difficulty": "Medium",
+    "slug": "number-of-alternating-xor-partitions"
+  },
+  {
+    "id": 3812,
+    "title": "Minimum Edge Toggles on a Tree",
+    "difficulty": "Hard",
+    "slug": "minimum-edge-toggles-on-a-tree"
+  },
+  {
+    "id": 3813,
+    "title": "Vowel-Consonant Score",
+    "difficulty": "Easy",
+    "slug": "vowel-consonant-score"
+  },
+  {
+    "id": 3814,
+    "title": "Maximum Capacity Within Budget",
+    "difficulty": "Medium",
+    "slug": "maximum-capacity-within-budget"
+  },
+  {
+    "id": 3815,
+    "title": "Design Auction System",
+    "difficulty": "Medium",
+    "slug": "design-auction-system"
+  },
+  {
+    "id": 3816,
+    "title": "Lexicographically Smallest String After Deleting Duplicate Characters",
+    "difficulty": "Hard",
+    "slug": "lexicographically-smallest-string-after-deleting-duplicate-characters"
   }
 ]
