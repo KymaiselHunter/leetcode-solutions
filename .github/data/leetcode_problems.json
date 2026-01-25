@@ -17486,7 +17486,7 @@
   {
     "id": 3642,
     "title": "Find Books with Polarized Opinions",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "slug": "find-books-with-polarized-opinions"
   },
   {
@@ -18394,5 +18394,29 @@
     "title": "Lexicographically Smallest String After Deleting Duplicate Characters",
     "difficulty": "Hard",
     "slug": "lexicographically-smallest-string-after-deleting-duplicate-characters"
+  },
+  {
+    "id": 3818,
+    "title": "Minimum Prefix Removal to Make Array Strictly Increasing",
+    "difficulty": "Medium",
+    "slug": "minimum-prefix-removal-to-make-array-strictly-increasing"
+  },
+  {
+    "id": 3819,
+    "title": "Rotate Non Negative Elements",
+    "difficulty": "Medium",
+    "slug": "rotate-non-negative-elements"
+  },
+  {
+    "id": 3820,
+    "title": "Pythagorean Distance Nodes in a Tree",
+    "difficulty": "Medium",
+    "slug": "pythagorean-distance-nodes-in-a-tree"
+  },
+  {
+    "id": 3821,
+    "title": "Find Nth Smallest Integer With K One Bits",
+    "difficulty": "Hard",
+    "slug": "find-nth-smallest-integer-with-k-one-bits"
   }
 ]
