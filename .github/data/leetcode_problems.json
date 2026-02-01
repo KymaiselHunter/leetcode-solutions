@@ -18418,5 +18418,53 @@
     "title": "Find Nth Smallest Integer With K One Bits",
     "difficulty": "Hard",
     "slug": "find-nth-smallest-integer-with-k-one-bits"
+  },
+  {
+    "id": 3823,
+    "title": "Reverse Letters Then Special Characters in a String",
+    "difficulty": "Easy",
+    "slug": "reverse-letters-then-special-characters-in-a-string"
+  },
+  {
+    "id": 3824,
+    "title": "Minimum K to Reduce Array Within Limit",
+    "difficulty": "Medium",
+    "slug": "minimum-k-to-reduce-array-within-limit"
+  },
+  {
+    "id": 3825,
+    "title": "Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND",
+    "difficulty": "Medium",
+    "slug": "longest-strictly-increasing-subsequence-with-non-zero-bitwise-and"
+  },
+  {
+    "id": 3826,
+    "title": "Minimum Partition Score",
+    "difficulty": "Hard",
+    "slug": "minimum-partition-score"
+  },
+  {
+    "id": 3827,
+    "title": "Count Monobit Integers",
+    "difficulty": "Easy",
+    "slug": "count-monobit-integers"
+  },
+  {
+    "id": 3828,
+    "title": "Final Element After Subarray Deletions",
+    "difficulty": "Medium",
+    "slug": "final-element-after-subarray-deletions"
+  },
+  {
+    "id": 3829,
+    "title": "Design Ride Sharing System",
+    "difficulty": "Medium",
+    "slug": "design-ride-sharing-system"
+  },
+  {
+    "id": 3830,
+    "title": "Longest Alternating Subarray After Removing At Most One Element",
+    "difficulty": "Hard",
+    "slug": "longest-alternating-subarray-after-removing-at-most-one-element"
   }
 ]
