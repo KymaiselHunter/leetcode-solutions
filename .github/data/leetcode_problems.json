@@ -18466,5 +18466,35 @@
     "title": "Longest Alternating Subarray After Removing At Most One Element",
     "difficulty": "Hard",
     "slug": "longest-alternating-subarray-after-removing-at-most-one-element"
+  },
+  {
+    "id": 3832,
+    "title": "Find Users with Persistent Behavior Patterns",
+    "difficulty": "Hard",
+    "slug": "find-users-with-persistent-behavior-patterns"
+  },
+  {
+    "id": 3833,
+    "title": "Count Dominant Indices",
+    "difficulty": "Easy",
+    "slug": "count-dominant-indices"
+  },
+  {
+    "id": 3834,
+    "title": "Merge Adjacent Equal Elements",
+    "difficulty": "Medium",
+    "slug": "merge-adjacent-equal-elements"
+  },
+  {
+    "id": 3835,
+    "title": "Count Subarrays With Cost Less Than or Equal to K",
+    "difficulty": "Medium",
+    "slug": "count-subarrays-with-cost-less-than-or-equal-to-k"
+  },
+  {
+    "id": 3836,
+    "title": "Maximum Score Using Exactly K Pairs",
+    "difficulty": "Hard",
+    "slug": "maximum-score-using-exactly-k-pairs"
   }
 ]
