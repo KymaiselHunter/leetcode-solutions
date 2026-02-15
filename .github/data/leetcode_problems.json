@@ -18496,5 +18496,53 @@
     "title": "Maximum Score Using Exactly K Pairs",
     "difficulty": "Hard",
     "slug": "maximum-score-using-exactly-k-pairs"
+  },
+  {
+    "id": 3838,
+    "title": "Weighted Word Mapping",
+    "difficulty": "Easy",
+    "slug": "weighted-word-mapping"
+  },
+  {
+    "id": 3839,
+    "title": "Number of Prefix Connected Groups",
+    "difficulty": "Medium",
+    "slug": "number-of-prefix-connected-groups"
+  },
+  {
+    "id": 3840,
+    "title": "House Robber V",
+    "difficulty": "Medium",
+    "slug": "house-robber-v"
+  },
+  {
+    "id": 3841,
+    "title": "Palindromic Path Queries in a Tree",
+    "difficulty": "Hard",
+    "slug": "palindromic-path-queries-in-a-tree"
+  },
+  {
+    "id": 3842,
+    "title": "Toggle Light Bulbs",
+    "difficulty": "Easy",
+    "slug": "toggle-light-bulbs"
+  },
+  {
+    "id": 3843,
+    "title": "First Element with Unique Frequency",
+    "difficulty": "Medium",
+    "slug": "first-element-with-unique-frequency"
+  },
+  {
+    "id": 3844,
+    "title": "Longest Almost-Palindromic Substring",
+    "difficulty": "Medium",
+    "slug": "longest-almost-palindromic-substring"
+  },
+  {
+    "id": 3845,
+    "title": "Maximum Subarray XOR with Bounded Range",
+    "difficulty": "Hard",
+    "slug": "maximum-subarray-xor-with-bounded-range"
   }
 ]
