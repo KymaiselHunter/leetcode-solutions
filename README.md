@@ -7,6 +7,7 @@
 | 1 | Two Sum | Easy | [Two Sum.py](Two%20Sum/Two%20Sum.py) | [Two Sum.cpp](Two%20Sum/Two%20Sum.cpp) | [OPEN](Two%20Sum) |
 | 2 | Add Two Numbers | Medium | [Add Two Numbers.py](Add%20Two%20Numbers/Add%20Two%20Numbers.py) | null | [OPEN](Add%20Two%20Numbers) |
 | 66 | Plus One | Easy | [Plus One.py](Plus%20One/Plus%20One.py) | null | [OPEN](Plus%20One) |
+| 190 | Reverse Bits | Easy | [Reverse Bits.py](Reverse%20Bits/Reverse%20Bits.py) | null | [OPEN](Reverse%20Bits) |
 | 215 | Kth Largest Element in an Array | Medium | [Kth Largest Element in an Array.py](Kth%20Largest%20Element%20in%20an%20Array/Kth%20Largest%20Element%20in%20an%20Array.py) | null | [OPEN](Kth%20Largest%20Element%20in%20an%20Array) |
 | 693 | Binary Number with Alternating Bits | Easy | [Binary Number with Alternating Bits.py](Binary%20Number%20with%20Alternating%20Bits/Binary%20Number%20with%20Alternating%20Bits.py) | null | [OPEN](Binary%20Number%20with%20Alternating%20Bits) |
 | 703 | Kth Largest Element in a Stream | Easy | [Kth Largest Element in a Stream.py](Kth%20Largest%20Element%20in%20a%20Stream/Kth%20Largest%20Element%20in%20a%20Stream.py) | null | [OPEN](Kth%20Largest%20Element%20in%20a%20Stream) |
