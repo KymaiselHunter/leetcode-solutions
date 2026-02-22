@@ -18544,5 +18544,29 @@
     "title": "Maximum Subarray XOR with Bounded Range",
     "difficulty": "Hard",
     "slug": "maximum-subarray-xor-with-bounded-range"
+  },
+  {
+    "id": 3847,
+    "title": "Find the Score Difference in a Game",
+    "difficulty": "Medium",
+    "slug": "find-the-score-difference-in-a-game"
+  },
+  {
+    "id": 3848,
+    "title": "Check Digitorial Permutation",
+    "difficulty": "Medium",
+    "slug": "check-digitorial-permutation"
+  },
+  {
+    "id": 3849,
+    "title": "Maximum Bitwise XOR After Rearrangement",
+    "difficulty": "Medium",
+    "slug": "maximum-bitwise-xor-after-rearrangement"
+  },
+  {
+    "id": 3850,
+    "title": "Count Sequences to K",
+    "difficulty": "Hard",
+    "slug": "count-sequences-to-k"
   }
 ]
