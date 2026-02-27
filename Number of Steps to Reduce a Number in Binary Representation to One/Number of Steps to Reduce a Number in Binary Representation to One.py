@@ -15,8 +15,8 @@ class Solution:
             for index in range(len(s)-2,-1,-1):
                 bit = s[index]
                 if not add:
-                    new = bit + new
-                    continue
+                    new = s[0:index+1] + new
+                    break
                 
                 if bit == '0':
                     new = '1' + new
