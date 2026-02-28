@@ -2,11 +2,10 @@ class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         cache = dict()
 
-        for index, num in enumerate(nums):
-            # print(index, num)
-            if target - num in cache:
-                return [cache[target-num], index]
-            cache[num] = index
+        for i, n in enumerate(nums):
+            if target - n in cache:
+                return [cache[target-n], i]
 
-        # print(cache)
+            cache[n] = i
+
         return [-1,-1]
