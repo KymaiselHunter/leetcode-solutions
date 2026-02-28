@@ -5,7 +5,7 @@ class Solution:
 
         for i in range(1,n+1):
             if pow(2, bits) <= i:
-                bits  += 1
+                bits += 1
 
             output = output << bits
             output = output | i
