@@ -18568,5 +18568,53 @@
     "title": "Count Sequences to K",
     "difficulty": "Hard",
     "slug": "count-sequences-to-k"
+  },
+  {
+    "id": 3852,
+    "title": "Smallest Pair With Different Frequencies",
+    "difficulty": "Easy",
+    "slug": "smallest-pair-with-different-frequencies"
+  },
+  {
+    "id": 3853,
+    "title": "Merge Close Characters",
+    "difficulty": "Medium",
+    "slug": "merge-close-characters"
+  },
+  {
+    "id": 3854,
+    "title": "Minimum Operations to Make Array Parity Alternating",
+    "difficulty": "Medium",
+    "slug": "minimum-operations-to-make-array-parity-alternating"
+  },
+  {
+    "id": 3855,
+    "title": "Sum of K-Digit Numbers in a Range",
+    "difficulty": "Hard",
+    "slug": "sum-of-k-digit-numbers-in-a-range"
+  },
+  {
+    "id": 3856,
+    "title": "Trim Trailing Vowels",
+    "difficulty": "Easy",
+    "slug": "trim-trailing-vowels"
+  },
+  {
+    "id": 3857,
+    "title": "Minimum Cost to Split into Ones",
+    "difficulty": "Medium",
+    "slug": "minimum-cost-to-split-into-ones"
+  },
+  {
+    "id": 3858,
+    "title": "Minimum Bitwise OR From Grid",
+    "difficulty": "Medium",
+    "slug": "minimum-bitwise-or-from-grid"
+  },
+  {
+    "id": 3859,
+    "title": "Count Subarrays With K Distinct Integers",
+    "difficulty": "Hard",
+    "slug": "count-subarrays-with-k-distinct-integers"
   }
 ]
