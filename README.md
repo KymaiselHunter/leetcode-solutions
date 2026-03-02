@@ -12,6 +12,7 @@
 | 215 | Kth Largest Element in an Array | Medium | [Kth Largest Element in an Array.py](Kth%20Largest%20Element%20in%20an%20Array/Kth%20Largest%20Element%20in%20an%20Array.py) | null | [OPEN](Kth%20Largest%20Element%20in%20an%20Array) |
 | 217 | Contains Duplicate | Easy | [Contains Duplicate.py](Contains%20Duplicate/Contains%20Duplicate.py) | null | [OPEN](Contains%20Duplicate) |
 | 242 | Valid Anagram | Easy | [Valid Anagram.py](Valid%20Anagram/Valid%20Anagram.py) | null | [OPEN](Valid%20Anagram) |
+| 347 | Top K Frequent Elements | Medium | [Top K Frequent Elements.py](Top%20K%20Frequent%20Elements/Top%20K%20Frequent%20Elements.py) | null | [OPEN](Top%20K%20Frequent%20Elements) |
 | 693 | Binary Number with Alternating Bits | Easy | [Binary Number with Alternating Bits.py](Binary%20Number%20with%20Alternating%20Bits/Binary%20Number%20with%20Alternating%20Bits.py) | null | [OPEN](Binary%20Number%20with%20Alternating%20Bits) |
 | 703 | Kth Largest Element in a Stream | Easy | [Kth Largest Element in a Stream.py](Kth%20Largest%20Element%20in%20a%20Stream/Kth%20Largest%20Element%20in%20a%20Stream.py) | null | [OPEN](Kth%20Largest%20Element%20in%20a%20Stream) |
 | 712 | Minimum ASCII Delete Sum for Two Strings | Medium | [Minimum ASCII Delete Sum for Two Strings.py](Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings/Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings.py) | null | [OPEN](Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings) |
