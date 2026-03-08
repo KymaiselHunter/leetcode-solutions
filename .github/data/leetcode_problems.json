@@ -18616,5 +18616,29 @@
     "title": "Count Subarrays With K Distinct Integers",
     "difficulty": "Hard",
     "slug": "count-subarrays-with-k-distinct-integers"
+  },
+  {
+    "id": 3861,
+    "title": "Minimum Capacity Box",
+    "difficulty": "Easy",
+    "slug": "minimum-capacity-box"
+  },
+  {
+    "id": 3862,
+    "title": "Find the Smallest Balanced Index",
+    "difficulty": "Medium",
+    "slug": "find-the-smallest-balanced-index"
+  },
+  {
+    "id": 3863,
+    "title": "Minimum Operations to Sort a String",
+    "difficulty": "Medium",
+    "slug": "minimum-operations-to-sort-a-string"
+  },
+  {
+    "id": 3864,
+    "title": "Minimum Cost to Partition a Binary String",
+    "difficulty": "Hard",
+    "slug": "minimum-cost-to-partition-a-binary-string"
   }
 ]
