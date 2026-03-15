@@ -18640,5 +18640,53 @@
     "title": "Minimum Cost to Partition a Binary String",
     "difficulty": "Hard",
     "slug": "minimum-cost-to-partition-a-binary-string"
+  },
+  {
+    "id": 3866,
+    "title": "First Unique Even Element",
+    "difficulty": "Easy",
+    "slug": "first-unique-even-element"
+  },
+  {
+    "id": 3867,
+    "title": "Sum of GCD of Formed Pairs",
+    "difficulty": "Medium",
+    "slug": "sum-of-gcd-of-formed-pairs"
+  },
+  {
+    "id": 3868,
+    "title": "Minimum Cost to Equalize Arrays Using Swaps",
+    "difficulty": "Medium",
+    "slug": "minimum-cost-to-equalize-arrays-using-swaps"
+  },
+  {
+    "id": 3869,
+    "title": "Count Fancy Numbers in a Range",
+    "difficulty": "Hard",
+    "slug": "count-fancy-numbers-in-a-range"
+  },
+  {
+    "id": 3870,
+    "title": "Count Commas in Range",
+    "difficulty": "Easy",
+    "slug": "count-commas-in-range"
+  },
+  {
+    "id": 3871,
+    "title": "Count Commas in Range II",
+    "difficulty": "Medium",
+    "slug": "count-commas-in-range-ii"
+  },
+  {
+    "id": 3872,
+    "title": "Longest Arithmetic Sequence After Changing At Most One Element",
+    "difficulty": "Medium",
+    "slug": "longest-arithmetic-sequence-after-changing-at-most-one-element"
+  },
+  {
+    "id": 3873,
+    "title": "Maximum Points Activated with One Addition",
+    "difficulty": "Hard",
+    "slug": "maximum-points-activated-with-one-addition"
   }
 ]
