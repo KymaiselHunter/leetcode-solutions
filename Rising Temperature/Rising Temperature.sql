@@ -2,5 +2,5 @@
 SELECT A.id
     FROM Weather A
     JOIN Weather B
-        on A.id - 1 = B.id
+        on A.recordDate - 1 = B.recordDate
         AND A.temperature > B.temperature;
