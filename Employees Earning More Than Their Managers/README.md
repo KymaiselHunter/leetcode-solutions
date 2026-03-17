@@ -1,4 +1,4 @@
-<h3><a href=https://leetcode.com/problems/employees-earning-more-than-their-managers/>Employees Earning More Than Their Managers</a></h3>
+<h3><a href=https://leetcode.com/problems/employees-earning-more-than-their-managers/submissions/1951502851/>Employees Earning More Than Their Managers</a></h3>
 <p><p>Table: <code>Employee</code></p>
 
 <pre>+-------------+---------+
