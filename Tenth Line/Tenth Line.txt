@@ -1,2 +1,2 @@
 # Read from the file file.txt and output the tenth line to stdout.
-grep "10" file.txt
+grep "5" file.txt
