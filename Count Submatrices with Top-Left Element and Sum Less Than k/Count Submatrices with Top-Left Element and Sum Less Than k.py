@@ -16,9 +16,9 @@ class Solution:
         for i in range(len(grid)):
             pre = 0
             for j in range(len(grid[i])):
-                if grid[i][j] + pre < k:
+                if grid[i][j] + pre <= k:
                     out += 1
-                    # print(i,j)
+                    print(i,j)
                 pre += grid[i][j]
 
         # print(grid)
