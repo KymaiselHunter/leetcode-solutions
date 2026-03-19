@@ -8,6 +8,7 @@
 | 2 | Add Two Numbers | Medium | [Add Two Numbers.py](Add%20Two%20Numbers/Add%20Two%20Numbers.py) | null | [OPEN](Add%20Two%20Numbers) |
 | 49 | Group Anagrams | Medium | [Group Anagrams.py](Group%20Anagrams/Group%20Anagrams.py) | null | [OPEN](Group%20Anagrams) |
 | 66 | Plus One | Easy | [Plus One.py](Plus%20One/Plus%20One.py) | null | [OPEN](Plus%20One) |
+| 101 | Symmetric Tree | Easy | [Symmetric Tree.py](Symmetric%20Tree/Symmetric%20Tree.py) | null | [OPEN](Symmetric%20Tree) |
 | 190 | Reverse Bits | Easy | [Reverse Bits.py](Reverse%20Bits/Reverse%20Bits.py) | null | [OPEN](Reverse%20Bits) |
 | 215 | Kth Largest Element in an Array | Medium | [Kth Largest Element in an Array.py](Kth%20Largest%20Element%20in%20an%20Array/Kth%20Largest%20Element%20in%20an%20Array.py) | null | [OPEN](Kth%20Largest%20Element%20in%20an%20Array) |
 | 217 | Contains Duplicate | Easy | [Contains Duplicate.py](Contains%20Duplicate/Contains%20Duplicate.py) | null | [OPEN](Contains%20Duplicate) |
