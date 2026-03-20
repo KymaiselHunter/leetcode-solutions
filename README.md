@@ -20,6 +20,7 @@
 | 217 | Contains Duplicate | Easy | [Contains Duplicate.py](Contains%20Duplicate/Contains%20Duplicate.py) | null | [OPEN](Contains%20Duplicate) |
 | 219 | Contains Duplicate II | Easy | [Contains Duplicate II.py](Contains%20Duplicate%20II/Contains%20Duplicate%20II.py) | null | [OPEN](Contains%20Duplicate%20II) |
 | 225 | Implement Stack using Queues | Easy | [Implement Stack using Queues.py](Implement%20Stack%20using%20Queues/Implement%20Stack%20using%20Queues.py) | null | [OPEN](Implement%20Stack%20using%20Queues) |
+| 228 | Summary Ranges | Easy | [Summary Ranges.py](Summary%20Ranges/Summary%20Ranges.py) | null | [OPEN](Summary%20Ranges) |
 | 238 | Product of Array Except Self | Medium | [Product of Array Except Self.py](Product%20of%20Array%20Except%20Self/Product%20of%20Array%20Except%20Self.py) | null | [OPEN](Product%20of%20Array%20Except%20Self) |
 | 242 | Valid Anagram | Easy | [Valid Anagram.py](Valid%20Anagram/Valid%20Anagram.py) | null | [OPEN](Valid%20Anagram) |
 | 347 | Top K Frequent Elements | Medium | [Top K Frequent Elements.py](Top%20K%20Frequent%20Elements/Top%20K%20Frequent%20Elements.py) | null | [OPEN](Top%20K%20Frequent%20Elements) |
