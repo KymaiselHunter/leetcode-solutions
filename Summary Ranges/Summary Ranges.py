@@ -24,8 +24,7 @@ class Solution:
             out.append(str(left))
         else:
             out.append(str(left)+"->"+str(right))
-        left = nums[i]
-        right = nums[i]
+
 
         return out
 
