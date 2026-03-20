@@ -18,6 +18,7 @@
 | 203 | Remove Linked List Elements | Easy | [Remove Linked List Elements.py](Remove%20Linked%20List%20Elements/Remove%20Linked%20List%20Elements.py) | null | [OPEN](Remove%20Linked%20List%20Elements) |
 | 215 | Kth Largest Element in an Array | Medium | [Kth Largest Element in an Array.py](Kth%20Largest%20Element%20in%20an%20Array/Kth%20Largest%20Element%20in%20an%20Array.py) | null | [OPEN](Kth%20Largest%20Element%20in%20an%20Array) |
 | 217 | Contains Duplicate | Easy | [Contains Duplicate.py](Contains%20Duplicate/Contains%20Duplicate.py) | null | [OPEN](Contains%20Duplicate) |
+| 225 | Implement Stack using Queues | Easy | [Implement Stack using Queues.py](Implement%20Stack%20using%20Queues/Implement%20Stack%20using%20Queues.py) | null | [OPEN](Implement%20Stack%20using%20Queues) |
 | 238 | Product of Array Except Self | Medium | [Product of Array Except Self.py](Product%20of%20Array%20Except%20Self/Product%20of%20Array%20Except%20Self.py) | null | [OPEN](Product%20of%20Array%20Except%20Self) |
 | 242 | Valid Anagram | Easy | [Valid Anagram.py](Valid%20Anagram/Valid%20Anagram.py) | null | [OPEN](Valid%20Anagram) |
 | 347 | Top K Frequent Elements | Medium | [Top K Frequent Elements.py](Top%20K%20Frequent%20Elements/Top%20K%20Frequent%20Elements.py) | null | [OPEN](Top%20K%20Frequent%20Elements) |
