@@ -12,6 +12,7 @@
 | 108 | Convert Sorted Array to Binary Search Tree | Easy | [Convert Sorted Array to Binary Search Tree.py](Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py) | null | [OPEN](Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree) |
 | 144 | Binary Tree Preorder Traversal | Easy | [Binary Tree Preorder Traversal.py](Binary%20Tree%20Preorder%20Traversal/Binary%20Tree%20Preorder%20Traversal.py) | null | [OPEN](Binary%20Tree%20Preorder%20Traversal) |
 | 145 | Binary Tree Postorder Traversal | Easy | [Binary Tree Postorder Traversal.py](Binary%20Tree%20Postorder%20Traversal/Binary%20Tree%20Postorder%20Traversal.py) | null | [OPEN](Binary%20Tree%20Postorder%20Traversal) |
+| 155 | Min Stack | Medium | [Min Stack.py](Min%20Stack/Min%20Stack.py) | null | [OPEN](Min%20Stack) |
 | 190 | Reverse Bits | Easy | [Reverse Bits.py](Reverse%20Bits/Reverse%20Bits.py) | null | [OPEN](Reverse%20Bits) |
 | 191 | Number of 1 Bits | Easy | [Number of 1 Bits.py](Number%20of%201%20Bits/Number%20of%201%20Bits.py) | null | [OPEN](Number%20of%201%20Bits) |
 | 202 | Happy Number | Easy | [Happy Number.py](Happy%20Number/Happy%20Number.py) | null | [OPEN](Happy%20Number) |
