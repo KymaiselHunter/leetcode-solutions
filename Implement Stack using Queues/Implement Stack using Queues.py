@@ -1,22 +1,51 @@
 class MyStack:
 
     def __init__(self):
-        self.stack = list()
+        self.q1 = list()
+        self.q2 = None
+        self.size = 0
 
     def push(self, x: int) -> None:
-        self.stack.append(x)
+        if self.empty():
+            self.q2 = x
+            self.size += 1
+            return
+        
+        self.q1.append(x)
+
+        for i in range(self.size):
+            if self.q2:
+                self.q1.append(self.q2)
+                self.q2 = None
+
+            self.q2 = self.q1.pop(0)
+        
+        self.size += 1
+
 
     def pop(self) -> int:
-        return self.stack.pop(-1)
-
-    def top(self) -> int:
-        if not self.stack:
+        if self.empty():
             return None
 
-        return self.stack[-1]
+        self.size -= 1
+
+        out = self.q2
+        self.q2 = None
+
+        if not self.empty() and not self.q2:
+            self.q2 = self.q1[0]
+            self.q1.pop(0)
+
+        return out
+
+    def top(self) -> int:
+        if self.empty():
+            return None
+
+        return self.q2
 
     def empty(self) -> bool:
-        return not self.stack
+        return self.size == 0
 
 
 # Your MyStack object will be instantiated and called as such:
