@@ -15,6 +15,7 @@
 | 190 | Reverse Bits | Easy | [Reverse Bits.py](Reverse%20Bits/Reverse%20Bits.py) | null | [OPEN](Reverse%20Bits) |
 | 191 | Number of 1 Bits | Easy | [Number of 1 Bits.py](Number%20of%201%20Bits/Number%20of%201%20Bits.py) | null | [OPEN](Number%20of%201%20Bits) |
 | 202 | Happy Number | Easy | [Happy Number.py](Happy%20Number/Happy%20Number.py) | null | [OPEN](Happy%20Number) |
+| 203 | Remove Linked List Elements | Easy | [Remove Linked List Elements.py](Remove%20Linked%20List%20Elements/Remove%20Linked%20List%20Elements.py) | null | [OPEN](Remove%20Linked%20List%20Elements) |
 | 215 | Kth Largest Element in an Array | Medium | [Kth Largest Element in an Array.py](Kth%20Largest%20Element%20in%20an%20Array/Kth%20Largest%20Element%20in%20an%20Array.py) | null | [OPEN](Kth%20Largest%20Element%20in%20an%20Array) |
 | 217 | Contains Duplicate | Easy | [Contains Duplicate.py](Contains%20Duplicate/Contains%20Duplicate.py) | null | [OPEN](Contains%20Duplicate) |
 | 238 | Product of Array Except Self | Medium | [Product of Array Except Self.py](Product%20of%20Array%20Except%20Self/Product%20of%20Array%20Except%20Self.py) | null | [OPEN](Product%20of%20Array%20Except%20Self) |
