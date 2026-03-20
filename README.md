@@ -11,6 +11,7 @@
 | 101 | Symmetric Tree | Easy | [Symmetric Tree.py](Symmetric%20Tree/Symmetric%20Tree.py) | null | [OPEN](Symmetric%20Tree) |
 | 108 | Convert Sorted Array to Binary Search Tree | Easy | [Convert Sorted Array to Binary Search Tree.py](Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py) | null | [OPEN](Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree) |
 | 144 | Binary Tree Preorder Traversal | Easy | [Binary Tree Preorder Traversal.py](Binary%20Tree%20Preorder%20Traversal/Binary%20Tree%20Preorder%20Traversal.py) | null | [OPEN](Binary%20Tree%20Preorder%20Traversal) |
+| 145 | Binary Tree Postorder Traversal | Easy | [Binary Tree Postorder Traversal.py](Binary%20Tree%20Postorder%20Traversal/Binary%20Tree%20Postorder%20Traversal.py) | null | [OPEN](Binary%20Tree%20Postorder%20Traversal) |
 | 190 | Reverse Bits | Easy | [Reverse Bits.py](Reverse%20Bits/Reverse%20Bits.py) | null | [OPEN](Reverse%20Bits) |
 | 215 | Kth Largest Element in an Array | Medium | [Kth Largest Element in an Array.py](Kth%20Largest%20Element%20in%20an%20Array/Kth%20Largest%20Element%20in%20an%20Array.py) | null | [OPEN](Kth%20Largest%20Element%20in%20an%20Array) |
 | 217 | Contains Duplicate | Easy | [Contains Duplicate.py](Contains%20Duplicate/Contains%20Duplicate.py) | null | [OPEN](Contains%20Duplicate) |
