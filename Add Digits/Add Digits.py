@@ -1,7 +1,7 @@
 class Solution:
     def addDigits(self, num: int) -> int:
         currNum = num
-        while currNum > 10:
+        while currNum >= 10:
             # print(currNum)
             nextNum = 0
 
