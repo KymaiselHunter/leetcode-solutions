@@ -13,6 +13,7 @@
 | 144 | Binary Tree Preorder Traversal | Easy | [Binary Tree Preorder Traversal.py](Binary%20Tree%20Preorder%20Traversal/Binary%20Tree%20Preorder%20Traversal.py) | null | [OPEN](Binary%20Tree%20Preorder%20Traversal) |
 | 145 | Binary Tree Postorder Traversal | Easy | [Binary Tree Postorder Traversal.py](Binary%20Tree%20Postorder%20Traversal/Binary%20Tree%20Postorder%20Traversal.py) | null | [OPEN](Binary%20Tree%20Postorder%20Traversal) |
 | 190 | Reverse Bits | Easy | [Reverse Bits.py](Reverse%20Bits/Reverse%20Bits.py) | null | [OPEN](Reverse%20Bits) |
+| 191 | Number of 1 Bits | Easy | [Number of 1 Bits.py](Number%20of%201%20Bits/Number%20of%201%20Bits.py) | null | [OPEN](Number%20of%201%20Bits) |
 | 215 | Kth Largest Element in an Array | Medium | [Kth Largest Element in an Array.py](Kth%20Largest%20Element%20in%20an%20Array/Kth%20Largest%20Element%20in%20an%20Array.py) | null | [OPEN](Kth%20Largest%20Element%20in%20an%20Array) |
 | 217 | Contains Duplicate | Easy | [Contains Duplicate.py](Contains%20Duplicate/Contains%20Duplicate.py) | null | [OPEN](Contains%20Duplicate) |
 | 238 | Product of Array Except Self | Medium | [Product of Array Except Self.py](Product%20of%20Array%20Except%20Self/Product%20of%20Array%20Except%20Self.py) | null | [OPEN](Product%20of%20Array%20Except%20Self) |
