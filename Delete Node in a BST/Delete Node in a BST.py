@@ -20,10 +20,13 @@ class Solution:
                 return node
 
             if not node.right or not node.left:
+                # if no children
                 if not node.right and not node.left:
                     return None
+                # if one child
                 return node.left if node.left else node.right
             
+            # if both child
             prev = node
             it = node.right
 
@@ -32,10 +35,13 @@ class Solution:
                 it = it.left
             
             if prev == node:
-                it.left = node.left
-                return it
+                # print('kawa')
+                node.val = it.val
+                node.right = it.right
+                return node
+            # print('k3awa')
             node.val = it.val
-            prev.left = None
+            prev.left = it.right
             return node
 
         return recur(root, key)
