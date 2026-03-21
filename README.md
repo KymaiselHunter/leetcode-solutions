@@ -25,6 +25,7 @@
 | 238 | Product of Array Except Self | Medium | [Product of Array Except Self.py](Product%20of%20Array%20Except%20Self/Product%20of%20Array%20Except%20Self.py) | null | [OPEN](Product%20of%20Array%20Except%20Self) |
 | 242 | Valid Anagram | Easy | [Valid Anagram.py](Valid%20Anagram/Valid%20Anagram.py) | null | [OPEN](Valid%20Anagram) |
 | 258 | Add Digits | Easy | [Add Digits.py](Add%20Digits/Add%20Digits.py) | null | [OPEN](Add%20Digits) |
+| 334 | Increasing Triplet Subsequence | Medium | [Increasing Triplet Subsequence.py](Increasing%20Triplet%20Subsequence/Increasing%20Triplet%20Subsequence.py) | null | [OPEN](Increasing%20Triplet%20Subsequence) |
 | 347 | Top K Frequent Elements | Medium | [Top K Frequent Elements.py](Top%20K%20Frequent%20Elements/Top%20K%20Frequent%20Elements.py) | null | [OPEN](Top%20K%20Frequent%20Elements) |
 | 693 | Binary Number with Alternating Bits | Easy | [Binary Number with Alternating Bits.py](Binary%20Number%20with%20Alternating%20Bits/Binary%20Number%20with%20Alternating%20Bits.py) | null | [OPEN](Binary%20Number%20with%20Alternating%20Bits) |
 | 703 | Kth Largest Element in a Stream | Easy | [Kth Largest Element in a Stream.py](Kth%20Largest%20Element%20in%20a%20Stream/Kth%20Largest%20Element%20in%20a%20Stream.py) | null | [OPEN](Kth%20Largest%20Element%20in%20a%20Stream) |
