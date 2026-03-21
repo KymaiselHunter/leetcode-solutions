@@ -28,6 +28,7 @@
 | 283 | Move Zeroes | Easy | [Move Zeroes.py](Move%20Zeroes/Move%20Zeroes.py) | null | [OPEN](Move%20Zeroes) |
 | 334 | Increasing Triplet Subsequence | Medium | [Increasing Triplet Subsequence.py](Increasing%20Triplet%20Subsequence/Increasing%20Triplet%20Subsequence.py) | null | [OPEN](Increasing%20Triplet%20Subsequence) |
 | 347 | Top K Frequent Elements | Medium | [Top K Frequent Elements.py](Top%20K%20Frequent%20Elements/Top%20K%20Frequent%20Elements.py) | null | [OPEN](Top%20K%20Frequent%20Elements) |
+| 392 | Is Subsequence | Easy | [Is Subsequence.py](Is%20Subsequence/Is%20Subsequence.py) | null | [OPEN](Is%20Subsequence) |
 | 450 | Delete Node in a BST | Medium | [Delete Node in a BST.py](Delete%20Node%20in%20a%20BST/Delete%20Node%20in%20a%20BST.py) | null | [OPEN](Delete%20Node%20in%20a%20BST) |
 | 605 | Can Place Flowers | Easy | [Can Place Flowers.py](Can%20Place%20Flowers/Can%20Place%20Flowers.py) | null | [OPEN](Can%20Place%20Flowers) |
 | 693 | Binary Number with Alternating Bits | Easy | [Binary Number with Alternating Bits.py](Binary%20Number%20with%20Alternating%20Bits/Binary%20Number%20with%20Alternating%20Bits.py) | null | [OPEN](Binary%20Number%20with%20Alternating%20Bits) |
