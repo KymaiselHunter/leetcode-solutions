@@ -1,7 +1,7 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
         pointer = 0
-        newWord = str()
+        newWord = list()
 
         while pointer < len(word1) or pointer < len(word2):
             if pointer >= len(word1):
@@ -11,8 +11,9 @@ class Solution:
                 newWord += word1[pointer::]
                 break
 
-            newWord += word1[pointer] + word2[pointer]
+            newWord.append(word1[pointer])
+            newWord.append(word2[pointer])
 
             pointer += 1
 
-        return newWord
+        return "".join(newWord)
