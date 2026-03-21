@@ -18,7 +18,7 @@ class Solution:
             if stack and height[stack[0]] > height[i] and left > height[i]:
                 curr = min(left,height[stack[0]])
                 out += curr-height[i]
-                print(i, curr-height[i], stack)
+                # print(i, curr-height[i], stack)
             if height[i] > left:
                 left = height[i]
 
