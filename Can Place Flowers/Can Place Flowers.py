@@ -10,7 +10,7 @@ class Solution:
                     cons+=1
 
             if num or index == len(flowerbed)-1:
-                n -= cons//2
+                n -= (cons-1)//2
                 cons = 0
 
         return n <= 0
