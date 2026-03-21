@@ -41,6 +41,7 @@
 | 739 | Daily Temperatures | Medium | [Daily Temperatures.py](Daily%20Temperatures/Daily%20Temperatures.py) | null | [OPEN](Daily%20Temperatures) |
 | 840 | Magic Squares In Grid | Medium | [Magic Squares In Grid.py](Magic%20Squares%20In%20Grid/Magic%20Squares%20In%20Grid.py) | null | [OPEN](Magic%20Squares%20In%20Grid) |
 | 865 | Smallest Subtree with all the Deepest Nodes | Medium | [Smallest Subtree with all the Deepest Nodes.py](Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes/Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py) | null | [OPEN](Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes) |
+| 901 | Online Stock Span | Medium | [Online Stock Span.py](Online%20Stock%20Span/Online%20Stock%20Span.py) | null | [OPEN](Online%20Stock%20Span) |
 | 961 | N-Repeated Element in Size 2N Array | Easy | [N-Repeated Element in Size 2N Array.py](N-Repeated%20Element%20in%20Size%202N%20Array/N-Repeated%20Element%20in%20Size%202N%20Array.py) | null | [OPEN](N-Repeated%20Element%20in%20Size%202N%20Array) |
 | 973 | K Closest Points to Origin | Medium | [K Closest Points to Origin.py](K%20Closest%20Points%20to%20Origin/K%20Closest%20Points%20to%20Origin.py) | null | [OPEN](K%20Closest%20Points%20to%20Origin) |
 | 1046 | Last Stone Weight | Easy | [Last Stone Weight.py](Last%20Stone%20Weight/Last%20Stone%20Weight.py) | null | [OPEN](Last%20Stone%20Weight) |
