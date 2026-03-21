@@ -1,7 +1,7 @@
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         if len(flowerbed) == 1:
-            if n - flowerbed [0] == 0:
+            if n - flowerbed [0] <= 0:
                 return True
             return False
         
