@@ -1,25 +1,15 @@
 class Solution:
     def increasingTriplet(self, nums: List[int]) -> bool:
-        biggest = [-1 for j in range(len(nums))]
-        for j in range(len(nums)-1,-1,-1):
-            if j == len(nums)-1:
-                biggest[j] = nums[j]
-                continue
-            curr = max(nums[j], biggest[j+1])
-            biggest[j]=curr
+        small = float('inf')
+        smallest = float('inf')
 
-        left = nums[0]
-        for i in range(1, len(nums)-1):
-            if left < nums[i] and nums[i] < biggest[i+1]:
+        for num in nums:
+            if num < small:
+                small = num
+            elif num < smallest:
+                smallest = num
+            else:
                 return True
-            
-            if left > nums[i]:
-                left = nums[i]
-            # biggest.pop(0)
-
-        # print(biggest)
 
         return False
-                
-            
 
