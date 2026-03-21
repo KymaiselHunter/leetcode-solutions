@@ -10,21 +10,14 @@ class Solution:
         if not head.next:
             return None
         
-        slow = None
-        fast = head
+        slow = head
+        fast = head.next.next
 
         while fast and fast.next:
-            # print(slow.val, fast.val)
-            if not slow:
-                slow = head
-            else:
-                slow = slow.next
-            fast = fast.next
-            
-            if fast:
-                fast = fast.next
 
-        # print(slow.val, slow)
+            slow = slow.next
+            fast = fast.next.next
+            
         slow.next = slow.next.next
 
         return head
