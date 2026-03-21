@@ -4,9 +4,9 @@ class Solution:
         smallest = float('inf')
 
         for num in nums:
-            if num < small:
+            if num <= small:
                 small = num
-            elif num < smallest:
+            elif num <= smallest:
                 smallest = num
             else:
                 return True
