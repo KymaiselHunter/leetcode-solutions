@@ -9,7 +9,7 @@ class Solution:
         def recur(node, key):
             if not node:
                 return node
-            print(node.val)
+            # print(node.val)
 
             if node.val < key:
                 node.right = recur(node.right, key)
@@ -36,7 +36,7 @@ class Solution:
                 return it
             node.val = it.val
             prev.left = None
-            return Node
+            return node
 
         return recur(root, key)
             
