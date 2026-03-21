@@ -5,7 +5,7 @@ class Solution:
             if j == len(nums)-1:
                 biggest[j] = nums[j]
                 continue
-            curr = max(nums[j], biggest[0])
+            curr = max(nums[j], biggest[j+1])
             biggest[j]=curr
 
         left = nums[0]
@@ -16,6 +16,8 @@ class Solution:
             if left > nums[i]:
                 left = nums[i]
             # biggest.pop(0)
+
+        # print(biggest)
 
         return False
                 
