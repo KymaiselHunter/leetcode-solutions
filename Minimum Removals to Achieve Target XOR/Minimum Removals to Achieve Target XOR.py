@@ -12,8 +12,8 @@ class Solution:
             dp[(i, total, included+1)] = backtrack(i+1, total ^ nums[i], included+1)
         
         backtrack(0,0,0)
-        # print(dp)
+        print(dp)
         # print(max(v for v in dp.values() if v is not None))
         # print(max(dp, key=lambda x: x[2]))
         included = max(v for v in dp.values() if v is not None)
-        return len(nums) - included if included > 0 else included 
+        return len(nums) - included if included > -1 else included 
