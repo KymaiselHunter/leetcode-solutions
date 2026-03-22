@@ -61,5 +61,6 @@
 | 3212 | Count Submatrices With Equal Frequency of X and Y | Medium | [Count Submatrices With Equal Frequency of X and Y.py](Count%20Submatrices%20With%20Equal%20Frequency%20of%20X%20and%20Y/Count%20Submatrices%20With%20Equal%20Frequency%20of%20X%20and%20Y.py) | null | [OPEN](Count%20Submatrices%20With%20Equal%20Frequency%20of%20X%20and%20Y) |
 | 3567 | Minimum Absolute Difference in Sliding Submatrix | Medium | [Minimum Absolute Difference in Sliding Submatrix.py](Minimum%20Absolute%20Difference%20in%20Sliding%20Submatrix/Minimum%20Absolute%20Difference%20in%20Sliding%20Submatrix.py) | null | [OPEN](Minimum%20Absolute%20Difference%20in%20Sliding%20Submatrix) |
 | 3643 | Flip Square Submatrix Vertically | Easy | [Flip Square Submatrix Vertically.py](Flip%20Square%20Submatrix%20Vertically/Flip%20Square%20Submatrix%20Vertically.py) | null | [OPEN](Flip%20Square%20Submatrix%20Vertically) |
+| 3876 | Construct Uniform Parity Array II | Medium | [Construct Uniform Parity Array II.py](Construct%20Uniform%20Parity%20Array%20II/Construct%20Uniform%20Parity%20Array%20II.py) | null | [OPEN](Construct%20Uniform%20Parity%20Array%20II) |
 
 <!-- SOLUTIONS:END -->
