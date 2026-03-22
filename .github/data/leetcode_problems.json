@@ -18688,5 +18688,29 @@
     "title": "Maximum Points Activated with One Addition",
     "difficulty": "Hard",
     "slug": "maximum-points-activated-with-one-addition"
+  },
+  {
+    "id": 3875,
+    "title": "Construct Uniform Parity Array I",
+    "difficulty": "Easy",
+    "slug": "construct-uniform-parity-array-i"
+  },
+  {
+    "id": 3876,
+    "title": "Construct Uniform Parity Array II",
+    "difficulty": "Medium",
+    "slug": "construct-uniform-parity-array-ii"
+  },
+  {
+    "id": 3877,
+    "title": "Minimum Removals to Achieve Target XOR",
+    "difficulty": "Medium",
+    "slug": "minimum-removals-to-achieve-target-xor"
+  },
+  {
+    "id": 3878,
+    "title": "Count Good Subarrays",
+    "difficulty": "Hard",
+    "slug": "count-good-subarrays"
   }
 ]
