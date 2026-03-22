@@ -3,9 +3,9 @@ class Solution:
         dp = {}
 
         def backtrack(i, total, included):
-            print(i, total, included)
+            # print(i, total, included)
             if (i, total, included) in dp:
-                print(i, total, included,"are you fucking ")
+                # print(i, total, included,"are you fucking ")
                 return dp[(i,total,included)]
             if i == len(nums):
                 dp[(i,total,included)] = included if total == target else -1#, dp[(i,total,included)] if dp[(i,total,included)] else -1)
