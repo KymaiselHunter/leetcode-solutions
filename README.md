@@ -63,5 +63,6 @@
 | 3643 | Flip Square Submatrix Vertically | Easy | [Flip Square Submatrix Vertically.py](Flip%20Square%20Submatrix%20Vertically/Flip%20Square%20Submatrix%20Vertically.py) | null | [OPEN](Flip%20Square%20Submatrix%20Vertically) |
 | 3875 | Construct Uniform Parity Array I | Easy | [Construct Uniform Parity Array I.py](Construct%20Uniform%20Parity%20Array%20I/Construct%20Uniform%20Parity%20Array%20I.py) | null | [OPEN](Construct%20Uniform%20Parity%20Array%20I) |
 | 3876 | Construct Uniform Parity Array II | Medium | [Construct Uniform Parity Array II.py](Construct%20Uniform%20Parity%20Array%20II/Construct%20Uniform%20Parity%20Array%20II.py) | null | [OPEN](Construct%20Uniform%20Parity%20Array%20II) |
+| 3877 | Minimum Removals to Achieve Target XOR | Medium | [Minimum Removals to Achieve Target XOR.py](Minimum%20Removals%20to%20Achieve%20Target%20XOR/Minimum%20Removals%20to%20Achieve%20Target%20XOR.py) | null | [OPEN](Minimum%20Removals%20to%20Achieve%20Target%20XOR) |
 
 <!-- SOLUTIONS:END -->
