@@ -35,6 +35,7 @@
 | 450 | Delete Node in a BST | Medium | [Delete Node in a BST.py](Delete%20Node%20in%20a%20BST/Delete%20Node%20in%20a%20BST.py) | null | [OPEN](Delete%20Node%20in%20a%20BST) |
 | 496 | Next Greater Element I | Easy | [Next Greater Element I.py](Next%20Greater%20Element%20I/Next%20Greater%20Element%20I.py) | null | [OPEN](Next%20Greater%20Element%20I) |
 | 605 | Can Place Flowers | Easy | [Can Place Flowers.py](Can%20Place%20Flowers/Can%20Place%20Flowers.py) | null | [OPEN](Can%20Place%20Flowers) |
+| 643 | Maximum Average Subarray I | Easy | [Maximum Average Subarray I.py](Maximum%20Average%20Subarray%20I/Maximum%20Average%20Subarray%20I.py) | null | [OPEN](Maximum%20Average%20Subarray%20I) |
 | 693 | Binary Number with Alternating Bits | Easy | [Binary Number with Alternating Bits.py](Binary%20Number%20with%20Alternating%20Bits/Binary%20Number%20with%20Alternating%20Bits.py) | null | [OPEN](Binary%20Number%20with%20Alternating%20Bits) |
 | 700 | Search in a Binary Search Tree | Easy | [Search in a Binary Search Tree.py](Search%20in%20a%20Binary%20Search%20Tree/Search%20in%20a%20Binary%20Search%20Tree.py) | null | [OPEN](Search%20in%20a%20Binary%20Search%20Tree) |
 | 701 | Insert into a Binary Search Tree | Medium | [Insert into a Binary Search Tree.py](Insert%20into%20a%20Binary%20Search%20Tree/Insert%20into%20a%20Binary%20Search%20Tree.py) | null | [OPEN](Insert%20into%20a%20Binary%20Search%20Tree) |
