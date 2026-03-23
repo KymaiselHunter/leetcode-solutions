@@ -27,7 +27,7 @@ class Solution:
                     downMax = grid[i][j] * dp[i+1][j][0]
                     downMin = grid[i][j] * dp[i+1][j][1]
 
-                    if not currMax:
+                    if currMax is None:
                         currMax = max(downMax, downMin)
                         currMin = min(downMax, downMin)
                     else:
@@ -40,5 +40,9 @@ class Solution:
                 dp[i][j] = (currMax, currMin, zero)
 
         out = max(dp[0][0][0], dp[0][0][1])
-        # print(dp)
+        for i in range(len(grid)):
+            print(grid[i])
+
+        for i in range(len(dp)):
+            print(dp[i])
         return out % (pow(10,9) + 7) if out >= 0 else -1 if not dp[0][0][2] else 0
