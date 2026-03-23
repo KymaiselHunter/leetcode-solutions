@@ -28,6 +28,7 @@
 | 242 | Valid Anagram | Easy | [Valid Anagram.py](Valid%20Anagram/Valid%20Anagram.py) | null | [OPEN](Valid%20Anagram) |
 | 258 | Add Digits | Easy | [Add Digits.py](Add%20Digits/Add%20Digits.py) | null | [OPEN](Add%20Digits) |
 | 283 | Move Zeroes | Easy | [Move Zeroes.py](Move%20Zeroes/Move%20Zeroes.py) | null | [OPEN](Move%20Zeroes) |
+| 328 | Odd Even Linked List | Medium | [Odd Even Linked List.py](Odd%20Even%20Linked%20List/Odd%20Even%20Linked%20List.py) | null | [OPEN](Odd%20Even%20Linked%20List) |
 | 334 | Increasing Triplet Subsequence | Medium | [Increasing Triplet Subsequence.py](Increasing%20Triplet%20Subsequence/Increasing%20Triplet%20Subsequence.py) | null | [OPEN](Increasing%20Triplet%20Subsequence) |
 | 347 | Top K Frequent Elements | Medium | [Top K Frequent Elements.py](Top%20K%20Frequent%20Elements/Top%20K%20Frequent%20Elements.py) | null | [OPEN](Top%20K%20Frequent%20Elements) |
 | 392 | Is Subsequence | Easy | [Is Subsequence.py](Is%20Subsequence/Is%20Subsequence.py) | null | [OPEN](Is%20Subsequence) |
