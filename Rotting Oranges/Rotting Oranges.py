@@ -13,6 +13,9 @@ class Solution:
                 if orange == 2:
                     spread.append((i,j))
 
+        if target == 0:
+            return 0
+            
         time = 0
         directions = [(1,0), (-1,0), (0,1), (0,-1)]
         found = 0
