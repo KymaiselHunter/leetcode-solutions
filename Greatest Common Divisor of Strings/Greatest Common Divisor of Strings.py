@@ -20,7 +20,7 @@ class Solution:
             if not checkValid:
                 continue
 
-            check = str1[:i+1]
+            check = str2
             checkValid = True
 
             while check:
