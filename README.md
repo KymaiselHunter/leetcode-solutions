@@ -30,6 +30,7 @@
 | 283 | Move Zeroes | Easy | [Move Zeroes.py](Move%20Zeroes/Move%20Zeroes.py) | null | [OPEN](Move%20Zeroes) |
 | 328 | Odd Even Linked List | Medium | [Odd Even Linked List.py](Odd%20Even%20Linked%20List/Odd%20Even%20Linked%20List.py) | null | [OPEN](Odd%20Even%20Linked%20List) |
 | 334 | Increasing Triplet Subsequence | Medium | [Increasing Triplet Subsequence.py](Increasing%20Triplet%20Subsequence/Increasing%20Triplet%20Subsequence.py) | null | [OPEN](Increasing%20Triplet%20Subsequence) |
+| 345 | Reverse Vowels of a String | Easy | [Reverse Vowels of a String.py](Reverse%20Vowels%20of%20a%20String/Reverse%20Vowels%20of%20a%20String.py) | null | [OPEN](Reverse%20Vowels%20of%20a%20String) |
 | 347 | Top K Frequent Elements | Medium | [Top K Frequent Elements.py](Top%20K%20Frequent%20Elements/Top%20K%20Frequent%20Elements.py) | null | [OPEN](Top%20K%20Frequent%20Elements) |
 | 392 | Is Subsequence | Easy | [Is Subsequence.py](Is%20Subsequence/Is%20Subsequence.py) | null | [OPEN](Is%20Subsequence) |
 | 450 | Delete Node in a BST | Medium | [Delete Node in a BST.py](Delete%20Node%20in%20a%20BST/Delete%20Node%20in%20a%20BST.py) | null | [OPEN](Delete%20Node%20in%20a%20BST) |
