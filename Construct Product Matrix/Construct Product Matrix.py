@@ -1,21 +1,20 @@
 class Solution:
     def constructProductMatrix(self, grid: List[List[int]]) -> List[List[int]]:
         pre = 1
-        suf = 1
-
+        MOD = 12345
         rowCount, colCount = len(grid), len(grid[0])
-        pMatrix = [[None for j in range(colCount)] for i in range(rowCount)]
-        sMatrix = [[None for j in range(colCount)] for i in range(rowCount)]
+        out = [[1 for j in range(colCount)] for i in range(rowCount)]
 
         for i in range(rowCount):
             for j in range(colCount):
-                pMatrix[i][j] = pre
-                sMatrix[rowCount - 1 - i][colCount - 1 - j] = suf
+                out[i][j] = pre
 
-                pre *= grid[i][j]
-                suf *= grid[rowCount - 1 - i][colCount - 1 - j]
-        # print(product)
-
-        out = [[(pMatrix[i][j] % 12345) * (sMatrix[i][j] % 12345)  for j in range(colCount)] for i in range(rowCount)]
+                pre = (pre * (grid[i][j] % MOD)) % MOD
+        
+        pre = 1
+        for i in range(rowCount -1, -1, -1):
+            for j in range(colCount -1, -1, -1):
+                out[i][j] = (out[i][j] * pre) % MOD
+                pre = (pre * (grid[i][j] % MOD)) % MOD
 
         return out

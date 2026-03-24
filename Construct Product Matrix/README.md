@@ -1,4 +1,4 @@
-<h3><a href=https://leetcode.com/problems/construct-product-matrix/?envType=daily-question&envId=2026-03-24>Construct Product Matrix</a></h3>
+<h3><a href=https://leetcode.com/problems/construct-product-matrix/submissions/1958018962/?envType=daily-question&envId=2026-03-24>Construct Product Matrix</a></h3>
 <p><p>Given a <strong>0-indexed</strong> 2D integer matrix <code><font face="monospace">grid</font></code><font face="monospace"> </font>of size <code>n * m</code>, we define a <strong>0-indexed</strong> 2D matrix <code>p</code> of size <code>n * m</code> as the <strong>product</strong> matrix of <code>grid</code> if the following condition is met:</p>
 
 <ul>
