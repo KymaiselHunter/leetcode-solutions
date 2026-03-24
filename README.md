@@ -50,6 +50,7 @@
 | 961 | N-Repeated Element in Size 2N Array | Easy | [N-Repeated Element in Size 2N Array.py](N-Repeated%20Element%20in%20Size%202N%20Array/N-Repeated%20Element%20in%20Size%202N%20Array.py) | null | [OPEN](N-Repeated%20Element%20in%20Size%202N%20Array) |
 | 973 | K Closest Points to Origin | Medium | [K Closest Points to Origin.py](K%20Closest%20Points%20to%20Origin/K%20Closest%20Points%20to%20Origin.py) | null | [OPEN](K%20Closest%20Points%20to%20Origin) |
 | 1046 | Last Stone Weight | Easy | [Last Stone Weight.py](Last%20Stone%20Weight/Last%20Stone%20Weight.py) | null | [OPEN](Last%20Stone%20Weight) |
+| 1071 | Greatest Common Divisor of Strings | Easy | [Greatest Common Divisor of Strings.py](Greatest%20Common%20Divisor%20of%20Strings/Greatest%20Common%20Divisor%20of%20Strings.py) | null | [OPEN](Greatest%20Common%20Divisor%20of%20Strings) |
 | 1143 | Longest Common Subsequence | Medium | [Longest Common Subsequence.py](Longest%20Common%20Subsequence/Longest%20Common%20Subsequence.py) | null | [OPEN](Longest%20Common%20Subsequence) |
 | 1161 | Maximum Level Sum of a Binary Tree | Medium | [Maximum Level Sum of a Binary Tree.py](Maximum%20Level%20Sum%20of%20a%20Binary%20Tree/Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py) | null | [OPEN](Maximum%20Level%20Sum%20of%20a%20Binary%20Tree) |
 | 1266 | Minimum Time Visiting All Points | Easy | [Minimum Time Visiting All Points.py](Minimum%20Time%20Visiting%20All%20Points/Minimum%20Time%20Visiting%20All%20Points.py) | null | [OPEN](Minimum%20Time%20Visiting%20All%20Points) |
