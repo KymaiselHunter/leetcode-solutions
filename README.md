@@ -41,6 +41,7 @@
 | 701 | Insert into a Binary Search Tree | Medium | [Insert into a Binary Search Tree.py](Insert%20into%20a%20Binary%20Search%20Tree/Insert%20into%20a%20Binary%20Search%20Tree.py) | null | [OPEN](Insert%20into%20a%20Binary%20Search%20Tree) |
 | 703 | Kth Largest Element in a Stream | Easy | [Kth Largest Element in a Stream.py](Kth%20Largest%20Element%20in%20a%20Stream/Kth%20Largest%20Element%20in%20a%20Stream.py) | null | [OPEN](Kth%20Largest%20Element%20in%20a%20Stream) |
 | 712 | Minimum ASCII Delete Sum for Two Strings | Medium | [Minimum ASCII Delete Sum for Two Strings.py](Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings/Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings.py) | null | [OPEN](Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings) |
+| 724 | Find Pivot Index | Easy | [Find Pivot Index.py](Find%20Pivot%20Index/Find%20Pivot%20Index.py) | null | [OPEN](Find%20Pivot%20Index) |
 | 739 | Daily Temperatures | Medium | [Daily Temperatures.py](Daily%20Temperatures/Daily%20Temperatures.py) | null | [OPEN](Daily%20Temperatures) |
 | 840 | Magic Squares In Grid | Medium | [Magic Squares In Grid.py](Magic%20Squares%20In%20Grid/Magic%20Squares%20In%20Grid.py) | null | [OPEN](Magic%20Squares%20In%20Grid) |
 | 865 | Smallest Subtree with all the Deepest Nodes | Medium | [Smallest Subtree with all the Deepest Nodes.py](Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes/Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py) | null | [OPEN](Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes) |
