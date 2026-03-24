@@ -1,29 +1,22 @@
 class Solution:
     def reverseVowels(self, s: str) -> str:
-        cStack = list()
-        vStack = list()
         vowels = {'a' , 'e', 'i', 'o', 'u'}
-
-        for index, letter in enumerate(s):
-            if letter.lower() in vowels:
-                vStack.append(letter)
-                continue
-            cStack.append(letter)
-
-        out = list()
+        left = 0
+        right = len(s)-1
         
-        for letter in s:
-            if not cStack:
-                out += vStack[::-1]
-                break
-            if not vStack:
-                out += cStack
-                break
-            if letter != cStack[0]:
-                out.append(vStack[-1])
-                vStack.pop(-1)
+        out = list(s)
+
+        while left < right:
+            if out[left].lower() in vowels and out[right].lower() in vowels:
+                out[left], out[right] = out[right], out[left]
+                left += 1
+                right -= 1
                 continue
-            out.append(cStack[0])
-            cStack.pop(0)
+
+            if not out[left].lower() in vowels:
+                left += 1
+            if not out[right].lower() in vowels:
+                right -= 1
 
         return "".join(out)
+
