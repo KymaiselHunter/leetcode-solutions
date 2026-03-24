@@ -16,6 +16,6 @@ class Solution:
                 suf *= grid[rowCount - 1 - i][colCount - 1 - j]
         # print(product)
 
-        out = [[pMatrix[i][j] * sMatrix[i][j] % 12345 for j in range(colCount)] for i in range(rowCount)]
+        out = [[(pMatrix[i][j] % 12345) * (sMatrix[i][j] % 12345)  for j in range(colCount)] for i in range(rowCount)]
 
         return out
