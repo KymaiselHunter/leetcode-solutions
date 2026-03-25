@@ -14,15 +14,15 @@ class MyHashMap:
         if key >= len(self.arr):
             return -1
         
-        if self.arr[key]:
-            return self.arr[key]
+        if self.arr[key] is None:
+            return -1
 
-        return -1
-
+        return self.arr[key]
+        
     def remove(self, key: int) -> None:
         if key >= len(self.arr):
             return 
-            
+
         self.arr[key] = None
 
 
