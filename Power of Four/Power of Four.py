@@ -4,4 +4,4 @@ class Solution:
             if n % 4 != 0:
                 return False
             n /= 4
-        return True
+        return True if n > 0 else False
