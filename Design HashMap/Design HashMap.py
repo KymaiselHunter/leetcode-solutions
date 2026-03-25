@@ -20,6 +20,9 @@ class MyHashMap:
         return -1
 
     def remove(self, key: int) -> None:
+        if key >= len(self.arr):
+            return 
+            
         self.arr[key] = None
 
 
