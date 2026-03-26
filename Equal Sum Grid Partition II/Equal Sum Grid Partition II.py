@@ -36,12 +36,24 @@ class Solution:
             if shrink == grow:
                 return True
             if shrink - grow in dShrink and dShrink[shrink - grow] > 0:
-                if i < len(grid)-2
+                if i < len(grid)-2:
                     return True
                 # check for single
-                if grid[i+1][]
+                # check the edges
+                if grid[-1][0] == shrink - grow:
+                    return True
+                if grid[-1][-1] == shrink - grow:
+                    return True
+                return False
+                    
             if grow - shrink in dGrow and dGrow[grow - shrink] > 0:
-                return True
+                if i > 0:
+                    return True
+                if grid[0][0] == grow - shrink:
+                    return True
+                if grid[0][-1] == grow - shrink:
+                    return True
+                return False
         
         shrink = totalSum
         grow = 0
@@ -64,9 +76,21 @@ class Solution:
             if shrink == grow:
                 return True
             if shrink - grow in dShrink and dShrink[shrink - grow] > 0:
-                return True
+                if j < len(grid[0])-2:
+                    return True
+                if grid[0][-1] == grow - shrink:
+                    return True
+                if grid[-1][-1] == grow - shrink:
+                    return True
+                return False
             if grow - shrink in dGrow and dGrow[grow - shrink] > 0:
-                return True
+                if j > 0:
+                    return True
+                if grid[0][0] == shrink - grow:
+                    return True
+                if grid[-1][0] == shrink - grow:
+                    return True
+                return False
 
         return False
 
