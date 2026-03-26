@@ -95,7 +95,7 @@ class Solution:
                     return True
                 if grid[-1][0] == grow - shrink:
                     return True
-                if len(grid) == 1 and grid[j] == grow - shrink:
+                if len(grid) == 1 and grid[0][j] == grow - shrink:
                     return True
                 return False
 
