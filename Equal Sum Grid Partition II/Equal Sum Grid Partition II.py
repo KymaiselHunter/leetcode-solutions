@@ -45,7 +45,7 @@ class Solution:
                     return True
                 if len(grid[0]) == 1 and grid[i+1][0] == shrink - grow:
                     return True
-                return False
+                # return False
                     
             if grow - shrink in dGrow and dGrow[grow - shrink] > 0:
                 if i > 0 and len(grid[0]) > 1:
@@ -56,7 +56,7 @@ class Solution:
                     return True
                 if len(grid) == 1 and grid[i][0] == grow - shrink:
                     return True
-                return False
+                # return False
         
         shrink = totalSum
         grow = 0
