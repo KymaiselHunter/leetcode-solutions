@@ -64,6 +64,7 @@ class Solution:
             dGrow[key] = 0
 
         for j in range(len(grid[0])-1):
+            lastI = 0
             for i in range(len(grid)):
                 curr = grid[i][j]
 
@@ -72,28 +73,30 @@ class Solution:
 
                 dGrow[curr] += 1
                 dShrink[curr] -= 1
+
+                lastI = i
             print(shrink, grow)
             if shrink == grow:
                 return True
             if shrink - grow in dShrink and dShrink[shrink - grow] > 0:
                 if j < len(grid[0])-2 and len(grid) > 1:
                     return True
-                if grid[0][-1] == grow - shrink:
+                if grid[0][-1] == shrink - grow:
                     return True
-                if grid[-1][-1] == grow - shrink:
+                if grid[-1][-1] == shrink - grow:
                     return True
-                # if len(grid) == 1 and grid[j] == grow - shrink:
-                #     return True
+                if len(grid) == 1 and grid[0][j] == grow - shrink:
+                    return True
                 return False
             if grow - shrink in dGrow and dGrow[grow - shrink] > 0:
                 if j > 0 and len(grid) > 1:
                     return True
-                if grid[0][0] == shrink - grow:
+                if grid[0][0] == grow - shrink:
                     return True
-                if grid[-1][0] == shrink - grow:
+                if grid[-1][0] == grow - shrink:
                     return True
-                # if len(grid) == 1 and grid[j] == shrink - grow:
-                #     return True
+                if len(grid) == 1 and grid[j-1] == grow - shrink:
+                    return True
                 return False
 
         return False
