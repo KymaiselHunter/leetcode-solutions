@@ -75,7 +75,7 @@ class Solution:
                 dShrink[curr] -= 1
 
                 lastI = i
-            print(shrink, grow)
+            print(shrink, grow,j)
             if shrink == grow:
                 return True
             if shrink - grow in dShrink and dShrink[shrink - grow] > 0:
@@ -85,7 +85,7 @@ class Solution:
                     return True
                 if grid[-1][-1] == shrink - grow:
                     return True
-                if len(grid) == 1 and grid[0][j] == grow - shrink:
+                if len(grid) == 1 and grid[0][j+1] == shrink - grow:
                     return True
                 return False
             if grow - shrink in dGrow and dGrow[grow - shrink] > 0:
@@ -95,7 +95,7 @@ class Solution:
                     return True
                 if grid[-1][0] == grow - shrink:
                     return True
-                if len(grid) == 1 and grid[j-1] == grow - shrink:
+                if len(grid) == 1 and grid[j] == grow - shrink:
                     return True
                 return False
 
