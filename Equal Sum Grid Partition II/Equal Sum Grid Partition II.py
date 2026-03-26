@@ -32,11 +32,10 @@ class Solution:
 
                 dGrow[curr] += 1
                 dShrink[curr] -= 1
-
             if shrink == grow:
                 return True
             if shrink - grow in dShrink and dShrink[shrink - grow] > 0:
-                if i < len(grid)-2:
+                if i < len(grid)-2 and len(grid[i]) > 1:
                     return True
                 # check for single
                 # check the edges
@@ -44,14 +43,18 @@ class Solution:
                     return True
                 if grid[-1][-1] == shrink - grow:
                     return True
+                if len(grid[0]) == 1 and grid[i+1][0] == shrink - grow:
+                    return True
                 return False
                     
             if grow - shrink in dGrow and dGrow[grow - shrink] > 0:
-                if i > 0:
+                if i > 0 and len(grid[0]) > 1:
                     return True
                 if grid[0][0] == grow - shrink:
                     return True
                 if grid[0][-1] == grow - shrink:
+                    return True
+                if len(grid) == 1 and grid[i][0] == grow - shrink:
                     return True
                 return False
         
