@@ -11,8 +11,8 @@ class Solution:
                 else:
                     rotMat[row].insert(0, rotMat[row].pop(-1))
 
-        print(rotMat)
-        print(mat)
+        # print(rotMat)
+        # print(mat)
         if mat == rotMat:
             return True
 
