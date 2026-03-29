@@ -18712,5 +18712,53 @@
     "title": "Count Good Subarrays",
     "difficulty": "Hard",
     "slug": "count-good-subarrays"
+  },
+  {
+    "id": 3880,
+    "title": "Minimum Absolute Difference Between Two Values",
+    "difficulty": "Easy",
+    "slug": "minimum-absolute-difference-between-two-values"
+  },
+  {
+    "id": 3881,
+    "title": "Direction Assignments with Exactly K Visible People",
+    "difficulty": "Medium",
+    "slug": "direction-assignments-with-exactly-k-visible-people"
+  },
+  {
+    "id": 3882,
+    "title": "Minimum XOR Path in a Grid",
+    "difficulty": "Medium",
+    "slug": "minimum-xor-path-in-a-grid"
+  },
+  {
+    "id": 3883,
+    "title": "Count Non Decreasing Arrays With Given Digit Sums",
+    "difficulty": "Hard",
+    "slug": "count-non-decreasing-arrays-with-given-digit-sums"
+  },
+  {
+    "id": 3884,
+    "title": "First Matching Character From Both Ends",
+    "difficulty": "Easy",
+    "slug": "first-matching-character-from-both-ends"
+  },
+  {
+    "id": 3885,
+    "title": "Design Event Manager",
+    "difficulty": "Medium",
+    "slug": "design-event-manager"
+  },
+  {
+    "id": 3886,
+    "title": "Sum of Sortable Integers",
+    "difficulty": "Hard",
+    "slug": "sum-of-sortable-integers"
+  },
+  {
+    "id": 3887,
+    "title": "Incremental Even-Weighted Cycle Queries",
+    "difficulty": "Hard",
+    "slug": "incremental-even-weighted-cycle-queries"
   }
 ]
