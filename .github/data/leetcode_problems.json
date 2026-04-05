@@ -18760,5 +18760,29 @@
     "title": "Incremental Even-Weighted Cycle Queries",
     "difficulty": "Hard",
     "slug": "incremental-even-weighted-cycle-queries"
+  },
+  {
+    "id": 3889,
+    "title": "Mirror Frequency Distance",
+    "difficulty": "Medium",
+    "slug": "mirror-frequency-distance"
+  },
+  {
+    "id": 3890,
+    "title": "Integers With Multiple Sum of Two Cubes",
+    "difficulty": "Medium",
+    "slug": "integers-with-multiple-sum-of-two-cubes"
+  },
+  {
+    "id": 3891,
+    "title": "Minimum Increase to Maximize Special Indices",
+    "difficulty": "Medium",
+    "slug": "minimum-increase-to-maximize-special-indices"
+  },
+  {
+    "id": 3892,
+    "title": "Minimum Operations to Achieve At Least K Peaks",
+    "difficulty": "Hard",
+    "slug": "minimum-operations-to-achieve-at-least-k-peaks"
   }
 ]
