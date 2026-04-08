@@ -6,6 +6,9 @@ class Solution:
         vals1 = set(list(c1.values()))
         vals2 = set(list(c2.values()))
 
-        return vals1 == vals2
+        chars1 = set(word1)
+        chars2 = set(word2)
+
+        return vals1 == vals2 and chars1 == chars2 
         # print(vals1)
         # print(vals2)
