@@ -18784,5 +18784,53 @@
     "title": "Minimum Operations to Achieve At Least K Peaks",
     "difficulty": "Hard",
     "slug": "minimum-operations-to-achieve-at-least-k-peaks"
+  },
+  {
+    "id": 3894,
+    "title": "Traffic Signal Color",
+    "difficulty": "Easy",
+    "slug": "traffic-signal-color"
+  },
+  {
+    "id": 3895,
+    "title": "Count Digit Appearances",
+    "difficulty": "Medium",
+    "slug": "count-digit-appearances"
+  },
+  {
+    "id": 3896,
+    "title": "Minimum Operations to Transform Array into Alternating Prime",
+    "difficulty": "Medium",
+    "slug": "minimum-operations-to-transform-array-into-alternating-prime"
+  },
+  {
+    "id": 3897,
+    "title": "Maximum Value of Concatenated Binary Segments",
+    "difficulty": "Hard",
+    "slug": "maximum-value-of-concatenated-binary-segments"
+  },
+  {
+    "id": 3898,
+    "title": "Find the Degree of Each Vertex",
+    "difficulty": "Easy",
+    "slug": "find-the-degree-of-each-vertex"
+  },
+  {
+    "id": 3899,
+    "title": "Angles of a Triangle",
+    "difficulty": "Medium",
+    "slug": "angles-of-a-triangle"
+  },
+  {
+    "id": 3900,
+    "title": "Longest Balanced Substring After One Swap",
+    "difficulty": "Medium",
+    "slug": "longest-balanced-substring-after-one-swap"
+  },
+  {
+    "id": 3901,
+    "title": "Good Subsequence Queries",
+    "difficulty": "Hard",
+    "slug": "good-subsequence-queries"
   }
 ]
