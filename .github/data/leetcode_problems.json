@@ -18832,5 +18832,29 @@
     "title": "Good Subsequence Queries",
     "difficulty": "Hard",
     "slug": "good-subsequence-queries"
+  },
+  {
+    "id": 3903,
+    "title": "Smallest Stable Index I",
+    "difficulty": "Easy",
+    "slug": "smallest-stable-index-i"
+  },
+  {
+    "id": 3904,
+    "title": "Smallest Stable Index II",
+    "difficulty": "Medium",
+    "slug": "smallest-stable-index-ii"
+  },
+  {
+    "id": 3905,
+    "title": "Multi Source Flood Fill",
+    "difficulty": "Medium",
+    "slug": "multi-source-flood-fill"
+  },
+  {
+    "id": 3906,
+    "title": "Count Good Integers on a Grid Path",
+    "difficulty": "Hard",
+    "slug": "count-good-integers-on-a-grid-path"
   }
 ]
