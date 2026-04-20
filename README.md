@@ -50,6 +50,7 @@
 | 865 | Smallest Subtree with all the Deepest Nodes | Medium | [Smallest Subtree with all the Deepest Nodes.py](Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes/Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py) | null | [OPEN](Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes) |
 | 872 | Leaf-Similar Trees | Easy | [Leaf-Similar Trees.py](Leaf-Similar%20Trees/Leaf-Similar%20Trees.py) | null | [OPEN](Leaf-Similar%20Trees) |
 | 901 | Online Stock Span | Medium | [Online Stock Span.py](Online%20Stock%20Span/Online%20Stock%20Span.py) | null | [OPEN](Online%20Stock%20Span) |
+| 933 | Number of Recent Calls | Easy | [Number of Recent Calls.py](Number%20of%20Recent%20Calls/Number%20of%20Recent%20Calls.py) | null | [OPEN](Number%20of%20Recent%20Calls) |
 | 961 | N-Repeated Element in Size 2N Array | Easy | [N-Repeated Element in Size 2N Array.py](N-Repeated%20Element%20in%20Size%202N%20Array/N-Repeated%20Element%20in%20Size%202N%20Array.py) | null | [OPEN](N-Repeated%20Element%20in%20Size%202N%20Array) |
 | 973 | K Closest Points to Origin | Medium | [K Closest Points to Origin.py](K%20Closest%20Points%20to%20Origin/K%20Closest%20Points%20to%20Origin.py) | null | [OPEN](K%20Closest%20Points%20to%20Origin) |
 | 994 | Rotting Oranges | Medium | [Rotting Oranges.py](Rotting%20Oranges/Rotting%20Oranges.py) | null | [OPEN](Rotting%20Oranges) |
