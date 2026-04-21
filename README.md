@@ -56,6 +56,7 @@
 | 994 | Rotting Oranges | Medium | [Rotting Oranges.py](Rotting%20Oranges/Rotting%20Oranges.py) | null | [OPEN](Rotting%20Oranges) |
 | 1046 | Last Stone Weight | Easy | [Last Stone Weight.py](Last%20Stone%20Weight/Last%20Stone%20Weight.py) | null | [OPEN](Last%20Stone%20Weight) |
 | 1071 | Greatest Common Divisor of Strings | Easy | [Greatest Common Divisor of Strings.py](Greatest%20Common%20Divisor%20of%20Strings/Greatest%20Common%20Divisor%20of%20Strings.py) | null | [OPEN](Greatest%20Common%20Divisor%20of%20Strings) |
+| 1137 | N-th Tribonacci Number | Easy | [N-th Tribonacci Number.py](N-th%20Tribonacci%20Number/N-th%20Tribonacci%20Number.py) | null | [OPEN](N-th%20Tribonacci%20Number) |
 | 1143 | Longest Common Subsequence | Medium | [Longest Common Subsequence.py](Longest%20Common%20Subsequence/Longest%20Common%20Subsequence.py) | null | [OPEN](Longest%20Common%20Subsequence) |
 | 1161 | Maximum Level Sum of a Binary Tree | Medium | [Maximum Level Sum of a Binary Tree.py](Maximum%20Level%20Sum%20of%20a%20Binary%20Tree/Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py) | null | [OPEN](Maximum%20Level%20Sum%20of%20a%20Binary%20Tree) |
 | 1207 | Unique Number of Occurrences | Easy | [Unique Number of Occurrences.py](Unique%20Number%20of%20Occurrences/Unique%20Number%20of%20Occurrences.py) | null | [OPEN](Unique%20Number%20of%20Occurrences) |
