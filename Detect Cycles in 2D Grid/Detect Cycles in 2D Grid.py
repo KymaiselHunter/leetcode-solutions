@@ -16,7 +16,7 @@ class Solution:
         for row in range(len(grid)):
             for col in range(len(grid[row])):
                 start = (row,col)
-                def recur(row: int, col: int) -> bool:
+                def recur(row: int, col: int, pDir: Tuple[int][int]) -> bool:
                     if not inBounds(row, col):
                         return False
 
@@ -26,20 +26,18 @@ class Solution:
                         return False
 
                     nonlocal path
-                    if (row, col) == start:
-                        if len(path) > 2:
-                            return True
-                    
                     if (row, col) in path:
-                        return False
+                        return True
                     
                     path.add((row,col))
                     for dr, dc in DIRS:
-                        if recur(row + dr, col + dc):
+                        if (-dr, -dc) == pDir:
+                            continue
+                        if recur(row + dr, col + dc, (dr,dc)):
                             return True
                     path.remove((row,col))
                     
 
-                if recur(row, col):
+                if recur(row, col, (0,0)):
                     return True
         return False
