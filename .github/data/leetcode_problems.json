@@ -18856,5 +18856,53 @@
     "title": "Count Good Integers on a Grid Path",
     "difficulty": "Hard",
     "slug": "count-good-integers-on-a-grid-path"
+  },
+  {
+    "id": 3908,
+    "title": "Valid Digit Number",
+    "difficulty": "Easy",
+    "slug": "valid-digit-number"
+  },
+  {
+    "id": 3909,
+    "title": "Compare Sums of Bitonic Parts",
+    "difficulty": "Medium",
+    "slug": "compare-sums-of-bitonic-parts"
+  },
+  {
+    "id": 3910,
+    "title": "Count Connected Subgraphs with Even Node Sum",
+    "difficulty": "Hard",
+    "slug": "count-connected-subgraphs-with-even-node-sum"
+  },
+  {
+    "id": 3911,
+    "title": "K-th Smallest Remaining Even Integer in Subarray Queries",
+    "difficulty": "Hard",
+    "slug": "k-th-smallest-remaining-even-integer-in-subarray-queries"
+  },
+  {
+    "id": 3912,
+    "title": "Valid Elements in an Array",
+    "difficulty": "Easy",
+    "slug": "valid-elements-in-an-array"
+  },
+  {
+    "id": 3913,
+    "title": "Sort Vowels by Frequency",
+    "difficulty": "Medium",
+    "slug": "sort-vowels-by-frequency"
+  },
+  {
+    "id": 3914,
+    "title": "Minimum Operations to Make Array Non Decreasing",
+    "difficulty": "Medium",
+    "slug": "minimum-operations-to-make-array-non-decreasing"
+  },
+  {
+    "id": 3915,
+    "title": "Maximum Sum of Alternating Subsequence With Distance at Least K",
+    "difficulty": "Hard",
+    "slug": "maximum-sum-of-alternating-subsequence-with-distance-at-least-k"
   }
 ]
