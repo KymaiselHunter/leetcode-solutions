@@ -39,7 +39,11 @@ class Solution:
                     continue
                 if (nextRow, nextCol) in passed:
                     continue
-                bfs.append((currRow + dr, currCol + dc))
+                nextStreetType = grid[nextRow][nextCol]
+                nextStreetType = streets[nextStreetType]
+                if not (-dr, -dc) in nextStreetType:
+                    continue
+                bfs.append((nextRow, nextCol))
 
         return False
                 
