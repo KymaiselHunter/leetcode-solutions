@@ -13,7 +13,7 @@ class Solution:
         leftSum = 0
         rightSum = sum(arr)
         
-        heap = []
+        out = float("inf")
 
         for i, num in enumerate(arr):
             rightSum -= num
@@ -23,7 +23,7 @@ class Solution:
 
             leftSum += num
 
-            heapq.heappush(heap, curr)
+            out = min(out,curr)
 
 
-        return heapq.heappop(heap)
+        return out
