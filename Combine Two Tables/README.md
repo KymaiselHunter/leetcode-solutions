@@ -1,4 +1,4 @@
-<h3><a href=https://leetcode.com/problems/combine-two-tables/>Combine Two Tables</a></h3>
+<h3><a href=https://leetcode.com/problems/combine-two-tables/?envType=problem-list-v2&envId=db-db1-sql-i>Combine Two Tables</a></h3>
 <p><p>Table: <code>Person</code></p>
 
 <pre>+-------------+---------+
