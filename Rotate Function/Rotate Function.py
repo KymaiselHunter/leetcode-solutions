@@ -1,25 +1,20 @@
 class Solution:
     def maxRotateFunction(self, nums: List[int]) -> int:
-        numsSize = len(nums)
-
-        bfs = []
-
-        for index, num in enumerate(nums):
-            # tuple represents:
-            # current index, total sum, index to multiply by
-            bfs.append((index, 0, 0))
-
         out = 0
+        for index, num in enumerate(nums):
+            out += index * num
 
-        while bfs:
-            curr = bfs.pop(0)
+        total = sum(nums)
+    
+        prev = out
+        for index in range(len(nums)-1, 0, -1):
+            curr = prev
 
-            index, total, position = curr
+            curr += total
+            curr -= len(nums) * nums[index]
 
-            if position >= numsSize:
-                out = max(out, total)
-                continue
-
-            bfs.append(((index + 1) % numsSize, total + position * nums[index], position + 1))
+            out = max(out,curr)
+            prev = curr
+            # print(curr, index)
 
         return out
