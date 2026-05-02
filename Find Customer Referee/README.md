@@ -1,4 +1,4 @@
-<h3><a href=https://leetcode.com/problems/find-customer-referee/>Find Customer Referee</a></h3>
+<h3><a href=https://leetcode.com/problems/find-customer-referee/?envType=problem-list-v2&envId=db-db1-sql-i>Find Customer Referee</a></h3>
 <p><p>Table: <code>Customer</code></p>
 
 <pre>+-------------+---------+
