@@ -18904,5 +18904,29 @@
     "title": "Maximum Sum of Alternating Subsequence With Distance at Least K",
     "difficulty": "Hard",
     "slug": "maximum-sum-of-alternating-subsequence-with-distance-at-least-k"
+  },
+  {
+    "id": 3917,
+    "title": "Count Indices With Opposite Parity",
+    "difficulty": "Easy",
+    "slug": "count-indices-with-opposite-parity"
+  },
+  {
+    "id": 3918,
+    "title": "Sum of Primes Between Number and Its Reverse",
+    "difficulty": "Medium",
+    "slug": "sum-of-primes-between-number-and-its-reverse"
+  },
+  {
+    "id": 3919,
+    "title": "Minimum Cost to Move Between Indices",
+    "difficulty": "Medium",
+    "slug": "minimum-cost-to-move-between-indices"
+  },
+  {
+    "id": 3920,
+    "title": "Maximize Fixed Points After Deletions",
+    "difficulty": "Hard",
+    "slug": "maximize-fixed-points-after-deletions"
   }
 ]
