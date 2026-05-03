@@ -47,6 +47,7 @@
 | 712 | Minimum ASCII Delete Sum for Two Strings | Medium | [Minimum ASCII Delete Sum for Two Strings.py](Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings/Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings.py) | null | [OPEN](Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings) |
 | 724 | Find Pivot Index | Easy | [Find Pivot Index.py](Find%20Pivot%20Index/Find%20Pivot%20Index.py) | null | [OPEN](Find%20Pivot%20Index) |
 | 739 | Daily Temperatures | Medium | [Daily Temperatures.py](Daily%20Temperatures/Daily%20Temperatures.py) | null | [OPEN](Daily%20Temperatures) |
+| 796 | Rotate String | Easy | [Rotate String.py](Rotate%20String/Rotate%20String.py) | null | [OPEN](Rotate%20String) |
 | 840 | Magic Squares In Grid | Medium | [Magic Squares In Grid.py](Magic%20Squares%20In%20Grid/Magic%20Squares%20In%20Grid.py) | null | [OPEN](Magic%20Squares%20In%20Grid) |
 | 865 | Smallest Subtree with all the Deepest Nodes | Medium | [Smallest Subtree with all the Deepest Nodes.py](Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes/Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py) | null | [OPEN](Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes) |
 | 872 | Leaf-Similar Trees | Easy | [Leaf-Similar Trees.py](Leaf-Similar%20Trees/Leaf-Similar%20Trees.py) | null | [OPEN](Leaf-Similar%20Trees) |
