@@ -14,6 +14,9 @@ class Solution:
             it = it.next
 
         rotate = k % length
+        if rotate == 0:
+            return head
+
         it = head
         prev = None
 
