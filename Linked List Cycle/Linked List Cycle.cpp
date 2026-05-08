@@ -13,7 +13,7 @@ public:
         {
             return false;
         }
-        ListNode * it = head;
+        ListNode * it = head->next;
 
         while (head && it)
         {
