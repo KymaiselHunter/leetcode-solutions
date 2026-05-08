@@ -7,6 +7,7 @@
 | 1 | Two Sum | Easy | [Two Sum.py](Two%20Sum/Two%20Sum.py) | [Two Sum.cpp](Two%20Sum/Two%20Sum.cpp) | [OPEN](Two%20Sum) |
 | 2 | Add Two Numbers | Medium | [Add Two Numbers.py](Add%20Two%20Numbers/Add%20Two%20Numbers.py) | null | [OPEN](Add%20Two%20Numbers) |
 | 11 | Container With Most Water | Medium | [Container With Most Water.py](Container%20With%20Most%20Water/Container%20With%20Most%20Water.py) | null | [OPEN](Container%20With%20Most%20Water) |
+| 20 | Valid Parentheses | Easy | null | [Valid Parentheses.cpp](Valid%20Parentheses/Valid%20Parentheses.cpp) | [OPEN](Valid%20Parentheses) |
 | 42 | Trapping Rain Water | Hard | [Trapping Rain Water.py](Trapping%20Rain%20Water/Trapping%20Rain%20Water.py) | null | [OPEN](Trapping%20Rain%20Water) |
 | 48 | Rotate Image | Medium | [Rotate Image.py](Rotate%20Image/Rotate%20Image.py) | null | [OPEN](Rotate%20Image) |
 | 49 | Group Anagrams | Medium | [Group Anagrams.py](Group%20Anagrams/Group%20Anagrams.py) | null | [OPEN](Group%20Anagrams) |
