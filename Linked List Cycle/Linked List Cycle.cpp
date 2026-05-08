@@ -13,15 +13,15 @@ public:
         {
             return false;
         }
-        ListNode * it = head->next;
+        ListNode * it = head;
 
         while (head && it)
         {
-            if(head == it) return true;
             head = head->next;
             it = it->next;
             if(!it) return false;
             it = it->next;
+            if(head == it) return true;
         }
         return false;
     }
