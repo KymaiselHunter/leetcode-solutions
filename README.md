@@ -10,7 +10,7 @@
 | 20 | Valid Parentheses | Easy | null | [Valid Parentheses.cpp](Valid%20Parentheses/Valid%20Parentheses.cpp) | [OPEN](Valid%20Parentheses) |
 | 42 | Trapping Rain Water | Hard | [Trapping Rain Water.py](Trapping%20Rain%20Water/Trapping%20Rain%20Water.py) | null | [OPEN](Trapping%20Rain%20Water) |
 | 48 | Rotate Image | Medium | [Rotate Image.py](Rotate%20Image/Rotate%20Image.py) | null | [OPEN](Rotate%20Image) |
-| 49 | Group Anagrams | Medium | [Group Anagrams.py](Group%20Anagrams/Group%20Anagrams.py) | null | [OPEN](Group%20Anagrams) |
+| 49 | Group Anagrams | Medium | [Group Anagrams.py](Group%20Anagrams/Group%20Anagrams.py) | [Group Anagrams.cpp](Group%20Anagrams/Group%20Anagrams.cpp) | [OPEN](Group%20Anagrams) |
 | 61 | Rotate List | Medium | [Rotate List.py](Rotate%20List/Rotate%20List.py) | null | [OPEN](Rotate%20List) |
 | 66 | Plus One | Easy | [Plus One.py](Plus%20One/Plus%20One.py) | null | [OPEN](Plus%20One) |
 | 101 | Symmetric Tree | Easy | [Symmetric Tree.py](Symmetric%20Tree/Symmetric%20Tree.py) | null | [OPEN](Symmetric%20Tree) |
