@@ -1,16 +1,19 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int,int> cache;
+        unordered_map<int,int> numToIndex;
 
         for(int i = 0; i < nums.size(); i++)
         {
-            if(cache.contains(target-nums[i]))
+            int needed = target - nums[i];
+            
+            if(numToIndex.count(needed) > 0)
             {
-                return {cache[target-nums[i]], i};
+                return {numToIndex[needed], i};
             }
-            cache[nums[i]] = i;
+            numToIndex[nums[i]] = i;
         }
-        return {-1,-1};
+
+        return {};
     }
 };
