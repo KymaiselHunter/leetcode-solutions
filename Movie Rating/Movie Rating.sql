@@ -1,29 +1,18 @@
 # Write your MySQL query statement below
--- SELECT 
---     name as results
--- FROM 
--- -- UsersJOIN 
--- (
-(    SELECT 
+
+(    
+    SELECT 
         name as results
     FROM MovieRating
     JOIN Users
     ON MovieRating.user_id = Users.user_id
     GROUP BY Users.user_id
     ORDER BY COUNT(*) DESC, name ASC
-    LIMIT 1)
--- ) as A
--- ON Users.user_id = A.user_id
-
+    LIMIT 1
+)
 UNION ALL
 (
--- SELECT
---     title as results
--- FROM Movies
--- JOIN (
     SELECT 
-        -- *,
-        -- AVG(rating)
         title as results
     FROM MovieRating
     JOIN Movies
@@ -33,6 +22,4 @@ UNION ALL
     GROUP BY Movies.movie_id
     ORDER BY AVG(rating) DESC, title ASC
     LIMIT 1
---     ) as B
--- ON Movies.movie_id = B.movie_id;
 );
