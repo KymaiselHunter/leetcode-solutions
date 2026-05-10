@@ -15,6 +15,7 @@
 | 61 | Rotate List | Medium | [Rotate List.py](Rotate%20List/Rotate%20List.py) | null | [OPEN](Rotate%20List) |
 | 66 | Plus One | Easy | [Plus One.py](Plus%20One/Plus%20One.py) | null | [OPEN](Plus%20One) |
 | 101 | Symmetric Tree | Easy | [Symmetric Tree.py](Symmetric%20Tree/Symmetric%20Tree.py) | null | [OPEN](Symmetric%20Tree) |
+| 104 | Maximum Depth of Binary Tree | Easy | null | [Maximum Depth of Binary Tree.cpp](Maximum%20Depth%20of%20Binary%20Tree/Maximum%20Depth%20of%20Binary%20Tree.cpp) | [OPEN](Maximum%20Depth%20of%20Binary%20Tree) |
 | 108 | Convert Sorted Array to Binary Search Tree | Easy | [Convert Sorted Array to Binary Search Tree.py](Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py) | null | [OPEN](Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree) |
 | 141 | Linked List Cycle | Easy | null | [Linked List Cycle.cpp](Linked%20List%20Cycle/Linked%20List%20Cycle.cpp) | [OPEN](Linked%20List%20Cycle) |
 | 144 | Binary Tree Preorder Traversal | Easy | [Binary Tree Preorder Traversal.py](Binary%20Tree%20Preorder%20Traversal/Binary%20Tree%20Preorder%20Traversal.py) | null | [OPEN](Binary%20Tree%20Preorder%20Traversal) |
