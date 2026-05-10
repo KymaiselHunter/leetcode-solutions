@@ -18928,5 +18928,53 @@
     "title": "Maximize Fixed Points After Deletions",
     "difficulty": "Hard",
     "slug": "maximize-fixed-points-after-deletions"
+  },
+  {
+    "id": 3921,
+    "title": "Score Validator",
+    "difficulty": "Easy",
+    "slug": "score-validator"
+  },
+  {
+    "id": 3922,
+    "title": "Minimum Flips to Make Binary String Coherent",
+    "difficulty": "Medium",
+    "slug": "minimum-flips-to-make-binary-string-coherent"
+  },
+  {
+    "id": 3923,
+    "title": "Minimum Generations to Target Point",
+    "difficulty": "Medium",
+    "slug": "minimum-generations-to-target-point"
+  },
+  {
+    "id": 3924,
+    "title": "Minimum Threshold Path With Limited Heavy Edges",
+    "difficulty": "Hard",
+    "slug": "minimum-threshold-path-with-limited-heavy-edges"
+  },
+  {
+    "id": 3925,
+    "title": "Concatenate Array With Reverse",
+    "difficulty": "Easy",
+    "slug": "concatenate-array-with-reverse"
+  },
+  {
+    "id": 3926,
+    "title": "Count Valid Word Occurrences",
+    "difficulty": "Medium",
+    "slug": "count-valid-word-occurrences"
+  },
+  {
+    "id": 3927,
+    "title": "Minimize Array Sum Using Divisible Replacements",
+    "difficulty": "Medium",
+    "slug": "minimize-array-sum-using-divisible-replacements"
+  },
+  {
+    "id": 3928,
+    "title": "Minimum Cost to Buy Apples II",
+    "difficulty": "Hard",
+    "slug": "minimum-cost-to-buy-apples-ii"
   }
 ]
