@@ -39,6 +39,7 @@
 | 342 | Power of Four | Easy | [Power of Four.py](Power%20of%20Four/Power%20of%20Four.py) | null | [OPEN](Power%20of%20Four) |
 | 345 | Reverse Vowels of a String | Easy | [Reverse Vowels of a String.py](Reverse%20Vowels%20of%20a%20String/Reverse%20Vowels%20of%20a%20String.py) | null | [OPEN](Reverse%20Vowels%20of%20a%20String) |
 | 347 | Top K Frequent Elements | Medium | [Top K Frequent Elements.py](Top%20K%20Frequent%20Elements/Top%20K%20Frequent%20Elements.py) | null | [OPEN](Top%20K%20Frequent%20Elements) |
+| 374 | Guess Number Higher or Lower | Easy | null | [Guess Number Higher or Lower.cpp](Guess%20Number%20Higher%20or%20Lower/Guess%20Number%20Higher%20or%20Lower.cpp) | [OPEN](Guess%20Number%20Higher%20or%20Lower) |
 | 392 | Is Subsequence | Easy | [Is Subsequence.py](Is%20Subsequence/Is%20Subsequence.py) | null | [OPEN](Is%20Subsequence) |
 | 396 | Rotate Function | Medium | [Rotate Function.py](Rotate%20Function/Rotate%20Function.py) | null | [OPEN](Rotate%20Function) |
 | 450 | Delete Node in a BST | Medium | [Delete Node in a BST.py](Delete%20Node%20in%20a%20BST/Delete%20Node%20in%20a%20BST.py) | null | [OPEN](Delete%20Node%20in%20a%20BST) |
