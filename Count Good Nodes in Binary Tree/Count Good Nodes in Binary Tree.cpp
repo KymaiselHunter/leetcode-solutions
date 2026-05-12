@@ -12,7 +12,7 @@
 class Solution {
 public:
     int goodNodes(TreeNode* root) {
-        return recur(root, -1);
+        return recur(root, root->val);
     }
 
     int recur(TreeNode * it, int pMax){
