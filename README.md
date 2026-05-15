@@ -20,6 +20,7 @@
 | 141 | Linked List Cycle | Easy | null | [Linked List Cycle.cpp](Linked%20List%20Cycle/Linked%20List%20Cycle.cpp) | [OPEN](Linked%20List%20Cycle) |
 | 144 | Binary Tree Preorder Traversal | Easy | [Binary Tree Preorder Traversal.py](Binary%20Tree%20Preorder%20Traversal/Binary%20Tree%20Preorder%20Traversal.py) | null | [OPEN](Binary%20Tree%20Preorder%20Traversal) |
 | 145 | Binary Tree Postorder Traversal | Easy | [Binary Tree Postorder Traversal.py](Binary%20Tree%20Postorder%20Traversal/Binary%20Tree%20Postorder%20Traversal.py) | null | [OPEN](Binary%20Tree%20Postorder%20Traversal) |
+| 153 | Find Minimum in Rotated Sorted Array | Medium | [Find Minimum in Rotated Sorted Array.py](Find%20Minimum%20in%20Rotated%20Sorted%20Array/Find%20Minimum%20in%20Rotated%20Sorted%20Array.py) | null | [OPEN](Find%20Minimum%20in%20Rotated%20Sorted%20Array) |
 | 155 | Min Stack | Medium | [Min Stack.py](Min%20Stack/Min%20Stack.py) | null | [OPEN](Min%20Stack) |
 | 190 | Reverse Bits | Easy | [Reverse Bits.py](Reverse%20Bits/Reverse%20Bits.py) | null | [OPEN](Reverse%20Bits) |
 | 191 | Number of 1 Bits | Easy | [Number of 1 Bits.py](Number%20of%201%20Bits/Number%20of%201%20Bits.py) | null | [OPEN](Number%20of%201%20Bits) |
