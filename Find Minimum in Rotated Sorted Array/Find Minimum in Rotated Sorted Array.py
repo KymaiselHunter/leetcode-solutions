@@ -5,12 +5,11 @@ class Solution:
 
         while left < right:
             mid = (right - left) // 2 + left
-
+            # print(left, mid, right)
             if nums[mid] < nums[right]:
                 right = mid
                 continue
 
-            if nums[mid] > nums[left]:
-                left = mid + 1
+            left = mid + 1
         # print(left, right, nums[left])
         return nums[left]
