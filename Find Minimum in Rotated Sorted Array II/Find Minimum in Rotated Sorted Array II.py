@@ -6,10 +6,13 @@ class Solution:
         while left < right:
             mid = (right - left) // 2 + left
             # print(left, mid, right)
-            if nums[mid] <= nums[right]:
+            if nums[mid] < nums[right]:
                 right = mid
                 continue
 
-            left = mid + 1
+            if nums[mid] > nums[right]:
+                left = mid + 1
+                continue
+            left += 1
         # print(left, right, nums[left])
         return nums[left]
