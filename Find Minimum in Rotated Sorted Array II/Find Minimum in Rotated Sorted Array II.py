@@ -13,6 +13,6 @@ class Solution:
             if nums[mid] > nums[right]:
                 left = mid + 1
                 continue
-            left += 1
+            right -= 1
         # print(left, right, nums[left])
         return nums[left]
