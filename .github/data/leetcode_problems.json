@@ -18976,5 +18976,29 @@
     "title": "Minimum Cost to Buy Apples II",
     "difficulty": "Hard",
     "slug": "minimum-cost-to-buy-apples-ii"
+  },
+  {
+    "id": 3931,
+    "title": "Check Adjacent Digit Differences",
+    "difficulty": "Easy",
+    "slug": "check-adjacent-digit-differences"
+  },
+  {
+    "id": 3932,
+    "title": "Count K-th Roots in a Range",
+    "difficulty": "Medium",
+    "slug": "count-k-th-roots-in-a-range"
+  },
+  {
+    "id": 3933,
+    "title": "Largest Local Values in a Matrix II",
+    "difficulty": "Medium",
+    "slug": "largest-local-values-in-a-matrix-ii"
+  },
+  {
+    "id": 3934,
+    "title": "Smallest Unique Subarray",
+    "difficulty": "Hard",
+    "slug": "smallest-unique-subarray"
   }
 ]
