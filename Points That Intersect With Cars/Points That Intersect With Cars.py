@@ -24,5 +24,5 @@ class Solution:
             if active > 0:
                 answer += length
 
-            print(index, val)
+            # print(index, val)
         return answer
