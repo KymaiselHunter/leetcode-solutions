@@ -8,7 +8,7 @@ class Solution:
             if A[i] == B[i]:
                 out[i] = prev + 1
                 prev = out[i]
-                freq[i-1] += 2
+                freq[A[i]-1] += 2
                 continue
 
             freq[A[i]-1] += 1
