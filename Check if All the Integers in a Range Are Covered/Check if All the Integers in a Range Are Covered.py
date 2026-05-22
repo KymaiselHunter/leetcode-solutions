@@ -9,7 +9,7 @@ class Solution:
         # print(events)
         sEvents = sorted(events.items())
         curr = 0
-        start = sEvents[0][0]
+        start = min(sEvents[0][0], left)
         # print(left, right)
         for i in range(start, right+1):
             # print(i, curr, events[i])
