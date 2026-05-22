@@ -22,9 +22,9 @@ class Solution:
 
             # target is in right
             if nums[mid] < nums[-1]: 
-                right = mid - 1
+                left = mid + 1
                 continue
-            left = mid + 1
+            right = mid - 1
 
         return left if nums[left] == target else -1
         
