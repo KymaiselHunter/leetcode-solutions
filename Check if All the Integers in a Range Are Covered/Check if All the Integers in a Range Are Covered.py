@@ -9,17 +9,13 @@ class Solution:
         # print(events)
         sEvents = sorted(events.items())
         curr = 0
-
-        for loc, change in sEvents:
-            if loc > left:
-                break
-            curr += change
+        start = sEvents[0][0]
         # print(left, right)
-        for i in range(left, right+1):
-            print(i)
+        for i in range(start, right+1):
+            # print(i, curr, events[i])
             curr += events[i]
 
-            if curr < 0:
+            if i >= left and curr <= 0:
                 return False
 
         return True
