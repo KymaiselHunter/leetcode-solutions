@@ -4,9 +4,9 @@ class Solution:
         cache = set()
         cache.add(nums[0])
         out = list()
+        skip = set()
 
         for i in range(1,len(nums)):
-            skip = set()
             for j in range(i+1,len(nums)):
                 if (nums[i], nums[j]) in skip:
                     continue
