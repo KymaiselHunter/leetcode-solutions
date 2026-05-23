@@ -5,11 +5,15 @@ class Solution:
         out = set()
 
         for i in range(1,len(nums)):
+            skip = set()
             for j in range(i+1,len(nums)):
+                if (nums[i], nums[j]) in skip:
+                    continue
                 if (nums[i] + nums[j]) * -1 in cache:
                     new = [nums[i], nums[j], (nums[i] + nums[j]) * -1]
                     new = tuple(sorted(new))
                     out.add(new)
+                    skip.add((nums[i], nums[j]))
             cache.add(nums[i])
 
         out = [list(item) for item in out]
