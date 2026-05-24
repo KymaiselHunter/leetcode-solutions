@@ -1,4 +1,4 @@
-<h3><a href=https://leetcode.com/problems/rising-temperature/>Rising Temperature</a></h3>
+<h3><a href=https://leetcode.com/problems/rising-temperature/?envType=study-plan-v2&envId=top-sql-50>Rising Temperature</a></h3>
 <p><p>Table: <code>Weather</code></p>
 
 <pre>+---------------+---------+
