@@ -124,5 +124,6 @@
 | 3876 | Construct Uniform Parity Array II | Medium | [Construct Uniform Parity Array II.py](Construct%20Uniform%20Parity%20Array%20II/Construct%20Uniform%20Parity%20Array%20II.py) | null | [OPEN](Construct%20Uniform%20Parity%20Array%20II) |
 | 3877 | Minimum Removals to Achieve Target XOR | Medium | [Minimum Removals to Achieve Target XOR.py](Minimum%20Removals%20to%20Achieve%20Target%20XOR/Minimum%20Removals%20to%20Achieve%20Target%20XOR.py) | null | [OPEN](Minimum%20Removals%20to%20Achieve%20Target%20XOR) |
 | 3940 | Limit Occurrences in Sorted Array | Easy | [Limit Occurrences in Sorted Array.py](Limit%20Occurrences%20in%20Sorted%20Array/Limit%20Occurrences%20in%20Sorted%20Array.py) | null | [OPEN](Limit%20Occurrences%20in%20Sorted%20Array) |
+| 3941 | Password Strength | Medium | [Password Strength.py](Password%20Strength/Password%20Strength.py) | null | [OPEN](Password%20Strength) |
 
 <!-- SOLUTIONS:END -->
