@@ -19000,5 +19000,53 @@
     "title": "Smallest Unique Subarray",
     "difficulty": "Hard",
     "slug": "smallest-unique-subarray"
+  },
+  {
+    "id": 3936,
+    "title": "Minimum Swaps to Move Zeros to End",
+    "difficulty": "Easy",
+    "slug": "minimum-swaps-to-move-zeros-to-end"
+  },
+  {
+    "id": 3937,
+    "title": "Minimum Operations to Make Array Modulo Alternating I",
+    "difficulty": "Medium",
+    "slug": "minimum-operations-to-make-array-modulo-alternating-i"
+  },
+  {
+    "id": 3938,
+    "title": "Maximum Path Intersection Sum in a Grid",
+    "difficulty": "Medium",
+    "slug": "maximum-path-intersection-sum-in-a-grid"
+  },
+  {
+    "id": 3939,
+    "title": "Count Non Adjacent Subsets in a Rooted Tree",
+    "difficulty": "Hard",
+    "slug": "count-non-adjacent-subsets-in-a-rooted-tree"
+  },
+  {
+    "id": 3940,
+    "title": "Limit Occurrences in Sorted Array",
+    "difficulty": "Easy",
+    "slug": "limit-occurrences-in-sorted-array"
+  },
+  {
+    "id": 3941,
+    "title": "Password Strength",
+    "difficulty": "Medium",
+    "slug": "password-strength"
+  },
+  {
+    "id": 3942,
+    "title": "Minimum Operations to Sort a Permutation",
+    "difficulty": "Medium",
+    "slug": "minimum-operations-to-sort-a-permutation"
+  },
+  {
+    "id": 3943,
+    "title": "Number of Pairs After Increment",
+    "difficulty": "Hard",
+    "slug": "number-of-pairs-after-increment"
   }
 ]
