@@ -3,19 +3,22 @@ class Solution:
         points = sorted(points)
         out = 0
         interval = None
+        it = 0
         # print(points)
-        while interval or points:
+        while interval or it < len(points):
             # print(interval, points)
             if not interval:
-                interval = points.pop(0)
+                interval = points[it]
+                it += 1
                 continue
 
-            if not points:
+            if it >= len(points):
                 interval = None
                 out += 1
                 continue
 
-            curr = points.pop(0)
+            curr = points[it]
+            it += 1
 
             if interval[1] < curr[0]:
                 interval = curr
