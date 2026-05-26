@@ -3,29 +3,20 @@ class Solution:
         if s[-1] == '1':
             return False
 
-        dp = [None for i in range(len(s))]
+        jumpList = [False for i in range(len(s))]
+        jumpList[0] = True
+        counter = 0
 
-        def recur(index):
-            # print(index)
-            if index >= len(s):
-                return False
-            if s[index] == '1':
-                dp[index] = False
-                return False
-            if index == len(s)-1:
-                dp[index] = True
-                return True
-            if dp[index] is not None:
-                return dp[index]
-
-            for i in range(
-                index + minJump, 
-                min(index + maxJump + 1, len(s))
-            ):
-                if recur(i):
-                    dp[index] = True
-                    return True
-            dp[index] = False
-            return False
+        for i in range(1, len(s)):
+            smallJump = i - minJump
+            if smallJump >= 0:
+                counter += jumpList[smallJump]
             
-        return recur(0)
+            bigJump = i - maxJump - 1
+
+            if bigJump >= 0:
+                counter -= jumpList[bigJump]
+
+            jumpList[i] = counter > 0 and s[i] == '0'
+
+        return jumpList[-1]

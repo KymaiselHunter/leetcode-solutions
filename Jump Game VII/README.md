@@ -1,4 +1,4 @@
-<h3><a href=https://leetcode.com/problems/jump-game-vii/?envType=daily-question&envId=2026-05-25>Jump Game VII</a></h3>
+<h3><a href=https://leetcode.com/problems/jump-game-vii/?envType=daily-question&envId=2026-05-26>Jump Game VII</a></h3>
 <p><p>You are given a <strong>0-indexed</strong> binary string <code>s</code> and two integers <code>minJump</code> and <code>maxJump</code>. In the beginning, you are standing at index <code>0</code>, which is equal to <code>'0'</code>. You can move from index <code>i</code> to index <code>j</code> if the following conditions are fulfilled:</p>
 
 <ul>
