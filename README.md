@@ -30,6 +30,7 @@
 | 191 | Number of 1 Bits | Easy | [Number of 1 Bits.py](Number%20of%201%20Bits/Number%20of%201%20Bits.py) | null | [OPEN](Number%20of%201%20Bits) |
 | 202 | Happy Number | Easy | [Happy Number.py](Happy%20Number/Happy%20Number.py) | null | [OPEN](Happy%20Number) |
 | 203 | Remove Linked List Elements | Easy | [Remove Linked List Elements.py](Remove%20Linked%20List%20Elements/Remove%20Linked%20List%20Elements.py) | null | [OPEN](Remove%20Linked%20List%20Elements) |
+| 206 | Reverse Linked List | Easy | null | [Reverse Linked List.cpp](Reverse%20Linked%20List/Reverse%20Linked%20List.cpp) | [OPEN](Reverse%20Linked%20List) |
 | 215 | Kth Largest Element in an Array | Medium | [Kth Largest Element in an Array.py](Kth%20Largest%20Element%20in%20an%20Array/Kth%20Largest%20Element%20in%20an%20Array.py) | null | [OPEN](Kth%20Largest%20Element%20in%20an%20Array) |
 | 217 | Contains Duplicate | Easy | [Contains Duplicate.py](Contains%20Duplicate/Contains%20Duplicate.py) | [Contains Duplicate.cpp](Contains%20Duplicate/Contains%20Duplicate.cpp) | [OPEN](Contains%20Duplicate) |
 | 219 | Contains Duplicate II | Easy | [Contains Duplicate II.py](Contains%20Duplicate%20II/Contains%20Duplicate%20II.py) | null | [OPEN](Contains%20Duplicate%20II) |
