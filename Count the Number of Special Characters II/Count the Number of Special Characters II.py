@@ -6,19 +6,18 @@ class Solution:
         left = set()
 
         for c in word:
-            # print(c)
-            # print(valid)
-            # print(invalid)
-            # print(left)
             if c.lower() in invalid:
                 continue
-            if c.upper() in valid and c.islower():
+            if c.upper() in valid:
+                if c.isupper():
+                    continue
                 valid.remove(c.upper())
                 invalid.add(c)
-                print(valid)
                 continue
 
-            if c.lower() in left and c.isupper():
+            if c.lower() in left:
+                if c.islower():
+                    continue
                 left.remove(c.lower())
                 valid.add(c)
                 continue
@@ -26,7 +25,7 @@ class Solution:
             if c.islower():
                 left.add(c)
                 continue
-            if c.lower() not in left and c.upper() not in valid:
-                invalid.add(c.lower())
-        # print(valid)
+                
+            invalid.add(c.lower())
+            
         return len(valid)
