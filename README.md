@@ -50,6 +50,7 @@
 | 396 | Rotate Function | Medium | [Rotate Function.py](Rotate%20Function/Rotate%20Function.py) | null | [OPEN](Rotate%20Function) |
 | 450 | Delete Node in a BST | Medium | [Delete Node in a BST.py](Delete%20Node%20in%20a%20BST/Delete%20Node%20in%20a%20BST.py) | null | [OPEN](Delete%20Node%20in%20a%20BST) |
 | 452 | Minimum Number of Arrows to Burst Balloons | Medium | [Minimum Number of Arrows to Burst Balloons.py](Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons/Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons.py) | null | [OPEN](Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons) |
+| 485 | Max Consecutive Ones | Easy | [Max Consecutive Ones.py](Max%20Consecutive%20Ones/Max%20Consecutive%20Ones.py) | null | [OPEN](Max%20Consecutive%20Ones) |
 | 496 | Next Greater Element I | Easy | [Next Greater Element I.py](Next%20Greater%20Element%20I/Next%20Greater%20Element%20I.py) | null | [OPEN](Next%20Greater%20Element%20I) |
 | 605 | Can Place Flowers | Easy | [Can Place Flowers.py](Can%20Place%20Flowers/Can%20Place%20Flowers.py) | null | [OPEN](Can%20Place%20Flowers) |
 | 643 | Maximum Average Subarray I | Easy | [Maximum Average Subarray I.py](Maximum%20Average%20Subarray%20I/Maximum%20Average%20Subarray%20I.py) | null | [OPEN](Maximum%20Average%20Subarray%20I) |
