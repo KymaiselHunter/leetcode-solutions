@@ -48,6 +48,7 @@
 | 374 | Guess Number Higher or Lower | Easy | null | [Guess Number Higher or Lower.cpp](Guess%20Number%20Higher%20or%20Lower/Guess%20Number%20Higher%20or%20Lower.cpp) | [OPEN](Guess%20Number%20Higher%20or%20Lower) |
 | 392 | Is Subsequence | Easy | [Is Subsequence.py](Is%20Subsequence/Is%20Subsequence.py) | null | [OPEN](Is%20Subsequence) |
 | 396 | Rotate Function | Medium | [Rotate Function.py](Rotate%20Function/Rotate%20Function.py) | null | [OPEN](Rotate%20Function) |
+| 448 | Find All Numbers Disappeared in an Array | Easy | [Find All Numbers Disappeared in an Array.py](Find%20All%20Numbers%20Disappeared%20in%20an%20Array/Find%20All%20Numbers%20Disappeared%20in%20an%20Array.py) | null | [OPEN](Find%20All%20Numbers%20Disappeared%20in%20an%20Array) |
 | 450 | Delete Node in a BST | Medium | [Delete Node in a BST.py](Delete%20Node%20in%20a%20BST/Delete%20Node%20in%20a%20BST.py) | null | [OPEN](Delete%20Node%20in%20a%20BST) |
 | 452 | Minimum Number of Arrows to Burst Balloons | Medium | [Minimum Number of Arrows to Burst Balloons.py](Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons/Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons.py) | null | [OPEN](Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons) |
 | 485 | Max Consecutive Ones | Easy | [Max Consecutive Ones.py](Max%20Consecutive%20Ones/Max%20Consecutive%20Ones.py) | null | [OPEN](Max%20Consecutive%20Ones) |
