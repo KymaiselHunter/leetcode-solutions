@@ -19048,5 +19048,29 @@
     "title": "Number of Pairs After Increment",
     "difficulty": "Hard",
     "slug": "number-of-pairs-after-increment"
+  },
+  {
+    "id": 3945,
+    "title": "Digit Frequency Score",
+    "difficulty": "Easy",
+    "slug": "digit-frequency-score"
+  },
+  {
+    "id": 3946,
+    "title": "Maximum Number of Items From Sale I",
+    "difficulty": "Medium",
+    "slug": "maximum-number-of-items-from-sale-i"
+  },
+  {
+    "id": 3947,
+    "title": "Maximum Number of Items From Sale II",
+    "difficulty": "Medium",
+    "slug": "maximum-number-of-items-from-sale-ii"
+  },
+  {
+    "id": 3948,
+    "title": "Lexicographically Maximum MEX Array",
+    "difficulty": "Hard",
+    "slug": "lexicographically-maximum-mex-array"
   }
 ]
