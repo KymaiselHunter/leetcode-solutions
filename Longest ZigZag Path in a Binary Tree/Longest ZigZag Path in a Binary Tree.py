@@ -16,13 +16,13 @@ class Solution:
             nonlocal out
 
             if dr == 0:
-                out = max(out, recur(node.left, 0))
+                out = max(recur(node.left, 0), out)
 
                 curr = 1 + recur(node.right, 1)
                 out = max(out, curr)
                 return curr
             elif dr == 1:
-                out = max(out, recur(node.right, 1))
+                out = max(recur(node.right, 1), out)
 
                 curr = 1 + recur(node.left, 0)
                 out = max(out, curr)
