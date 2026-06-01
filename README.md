@@ -68,6 +68,7 @@
 | 739 | Daily Temperatures | Medium | [Daily Temperatures.py](Daily%20Temperatures/Daily%20Temperatures.py) | null | [OPEN](Daily%20Temperatures) |
 | 796 | Rotate String | Easy | [Rotate String.py](Rotate%20String/Rotate%20String.py) | null | [OPEN](Rotate%20String) |
 | 840 | Magic Squares In Grid | Medium | [Magic Squares In Grid.py](Magic%20Squares%20In%20Grid/Magic%20Squares%20In%20Grid.py) | null | [OPEN](Magic%20Squares%20In%20Grid) |
+| 841 | Keys and Rooms | Medium | [Keys and Rooms.py](Keys%20and%20Rooms/Keys%20and%20Rooms.py) | null | [OPEN](Keys%20and%20Rooms) |
 | 865 | Smallest Subtree with all the Deepest Nodes | Medium | [Smallest Subtree with all the Deepest Nodes.py](Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes/Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py) | null | [OPEN](Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes) |
 | 872 | Leaf-Similar Trees | Easy | [Leaf-Similar Trees.py](Leaf-Similar%20Trees/Leaf-Similar%20Trees.py) | null | [OPEN](Leaf-Similar%20Trees) |
 | 901 | Online Stock Span | Medium | [Online Stock Span.py](Online%20Stock%20Span/Online%20Stock%20Span.py) | null | [OPEN](Online%20Stock%20Span) |
