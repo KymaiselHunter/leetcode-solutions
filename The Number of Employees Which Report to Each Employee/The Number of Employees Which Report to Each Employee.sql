@@ -19,4 +19,5 @@ JOIN
     GROUP BY 
         reports_to
 ) AS Reports
-ON Reports.reports_to = Employees.employee_id;
+ON Reports.reports_to = Employees.employee_id
+ORDER BY Employees.employee_id;
