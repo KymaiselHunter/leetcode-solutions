@@ -54,6 +54,7 @@
 | 452 | Minimum Number of Arrows to Burst Balloons | Medium | [Minimum Number of Arrows to Burst Balloons.py](Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons/Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons.py) | null | [OPEN](Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons) |
 | 485 | Max Consecutive Ones | Easy | [Max Consecutive Ones.py](Max%20Consecutive%20Ones/Max%20Consecutive%20Ones.py) | null | [OPEN](Max%20Consecutive%20Ones) |
 | 496 | Next Greater Element I | Easy | [Next Greater Element I.py](Next%20Greater%20Element%20I/Next%20Greater%20Element%20I.py) | null | [OPEN](Next%20Greater%20Element%20I) |
+| 547 | Number of Provinces | Medium | [Number of Provinces.py](Number%20of%20Provinces/Number%20of%20Provinces.py) | null | [OPEN](Number%20of%20Provinces) |
 | 605 | Can Place Flowers | Easy | [Can Place Flowers.py](Can%20Place%20Flowers/Can%20Place%20Flowers.py) | null | [OPEN](Can%20Place%20Flowers) |
 | 643 | Maximum Average Subarray I | Easy | [Maximum Average Subarray I.py](Maximum%20Average%20Subarray%20I/Maximum%20Average%20Subarray%20I.py) | null | [OPEN](Maximum%20Average%20Subarray%20I) |
 | 645 | Set Mismatch | Easy | [Set Mismatch.py](Set%20Mismatch/Set%20Mismatch.py) | null | [OPEN](Set%20Mismatch) |
