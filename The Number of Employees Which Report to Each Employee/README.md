@@ -1,4 +1,4 @@
-<h3><a href=https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/?envType=study-plan-v2&envId=top-sql-50>The Number of Employees Which Report to Each Employee</a></h3>
+<h3><a href=https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/description/?envType=study-plan-v2&envId=top-sql-50>The Number of Employees Which Report to Each Employee</a></h3>
 <p><p>Table: <code>Employees</code></p>
 
 <pre>+-------------+----------+
