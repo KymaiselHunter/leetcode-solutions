@@ -16,7 +16,7 @@ class Solution:
                 out = min(out, ear1 + waterDuration[i])
         
         for i in range(len(landStartTime)):
-            if ear1 <= landStartTime[i]:
+            if ear2 <= landStartTime[i]:
                 out = min(out, landStartTime[i] + landDuration[i])
             else:
                 out = min(out, ear2 + landDuration[i])
