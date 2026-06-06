@@ -1,4 +1,4 @@
-<h3><a href=https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/?envType=daily-question&envId=2026-06-02>Total Waviness of Numbers in Range II</a></h3>
+<h3><a href=https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/description/?envType=daily-question&envId=2026-06-02>Total Waviness of Numbers in Range II</a></h3>
 <p><p>You are given two integers <code>num1</code> and <code>num2</code> representing an <strong>inclusive</strong> range <code>[num1, num2]</code>.</p>
 
 <p>The <strong>waviness</strong> of a number is defined as the total count of its <strong>peaks</strong> and <strong>valleys</strong>:</p>
