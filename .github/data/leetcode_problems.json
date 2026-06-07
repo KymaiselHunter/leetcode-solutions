@@ -19072,5 +19072,53 @@
     "title": "Lexicographically Maximum MEX Array",
     "difficulty": "Hard",
     "slug": "lexicographically-maximum-mex-array"
+  },
+  {
+    "id": 3950,
+    "title": "Exactly One Consecutive Set Bits Pair",
+    "difficulty": "Easy",
+    "slug": "exactly-one-consecutive-set-bits-pair"
+  },
+  {
+    "id": 3951,
+    "title": "Minimum Energy to Maintain Brightness",
+    "difficulty": "Medium",
+    "slug": "minimum-energy-to-maintain-brightness"
+  },
+  {
+    "id": 3952,
+    "title": "Maximum Total Value of Covered Indices",
+    "difficulty": "Medium",
+    "slug": "maximum-total-value-of-covered-indices"
+  },
+  {
+    "id": 3953,
+    "title": "Maximum Score with Co-Prime Element",
+    "difficulty": "Hard",
+    "slug": "maximum-score-with-co-prime-element"
+  },
+  {
+    "id": 3954,
+    "title": "Sum of Compatible Numbers in Range I",
+    "difficulty": "Easy",
+    "slug": "sum-of-compatible-numbers-in-range-i"
+  },
+  {
+    "id": 3955,
+    "title": "Valid Binary Strings With Cost Limit",
+    "difficulty": "Medium",
+    "slug": "valid-binary-strings-with-cost-limit"
+  },
+  {
+    "id": 3956,
+    "title": "Maximum Sum of M Non-Overlapping Subarrays I",
+    "difficulty": "Hard",
+    "slug": "maximum-sum-of-m-non-overlapping-subarrays-i"
+  },
+  {
+    "id": 3957,
+    "title": "Maximum Sum of M Non-Overlapping Subarrays II",
+    "difficulty": "Hard",
+    "slug": "maximum-sum-of-m-non-overlapping-subarrays-ii"
   }
 ]
