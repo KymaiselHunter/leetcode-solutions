@@ -3,28 +3,30 @@ class Solution:
         dp = dict()
         out = 0
 
-        for i in range(num1, num2+1):
-            curr = i
+        def recur(num: int):
+            if num < 100:
+                dp[num] = 0
+                return 0
+            
+            if num in dp:
+                return dp[num]
+
             increment = 0
-            while curr >= 100:
-                if curr in dp:
-                    increment += dp[curr]
-                    break
+            increment += recur(num // 10)
 
-                right = curr % 10
-                mid = (curr // 10) % 10
-                left = (curr // 100) % 10
+            right = num % 10
+            mid = (num // 10) % 10
+            left = (num // 100) % 10
 
-                curr //= 10
+            if left < mid and mid > right:
+                increment += 1
+            elif left > mid and mid < right:
+                increment += 1
 
-                if left < mid and mid > right:
-                    increment += 1
-                    continue
+            dp[num] = increment
+            return increment
 
-                if left > mid and mid < right:
-                    increment += 1
-
-            dp[i] = increment
-            out += increment
+        for i in range(num1, num2+1):
+            out += recur(i)
 
         return out
