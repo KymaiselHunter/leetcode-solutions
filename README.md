@@ -122,6 +122,7 @@
 | 2336 | Smallest Number in Infinite Set | Medium | [Smallest Number in Infinite Set.py](Smallest%20Number%20in%20Infinite%20Set/Smallest%20Number%20in%20Infinite%20Set.py) | null | [OPEN](Smallest%20Number%20in%20Infinite%20Set) |
 | 2390 | Removing Stars From a String | Medium | [Removing Stars From a String.py](Removing%20Stars%20From%20a%20String/Removing%20Stars%20From%20a%20String.py) | null | [OPEN](Removing%20Stars%20From%20a%20String) |
 | 2540 | Minimum Common Value | Easy | [Minimum Common Value.py](Minimum%20Common%20Value/Minimum%20Common%20Value.py) | null | [OPEN](Minimum%20Common%20Value) |
+| 2574 | Left and Right Sum Differences | Easy | [Left and Right Sum Differences.py](Left%20and%20Right%20Sum%20Differences/Left%20and%20Right%20Sum%20Differences.py) | null | [OPEN](Left%20and%20Right%20Sum%20Differences) |
 | 2657 | Find the Prefix Common Array of Two Arrays | Medium | [Find the Prefix Common Array of Two Arrays.py](Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays/Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays.py) | null | [OPEN](Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays) |
 | 2784 | Check if Array is Good | Easy | null | [Check if Array is Good.cpp](Check%20if%20Array%20is%20Good/Check%20if%20Array%20is%20Good.cpp) | [OPEN](Check%20if%20Array%20is%20Good) |
 | 2833 | Furthest Point From Origin | Easy | [Furthest Point From Origin.py](Furthest%20Point%20From%20Origin/Furthest%20Point%20From%20Origin.py) | null | [OPEN](Furthest%20Point%20From%20Origin) |
