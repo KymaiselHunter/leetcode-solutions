@@ -19120,5 +19120,29 @@
     "title": "Maximum Sum of M Non-Overlapping Subarrays II",
     "difficulty": "Hard",
     "slug": "maximum-sum-of-m-non-overlapping-subarrays-ii"
+  },
+  {
+    "id": 3959,
+    "title": "Check Good Integer",
+    "difficulty": "Easy",
+    "slug": "check-good-integer"
+  },
+  {
+    "id": 3960,
+    "title": "Frequency Balance Subarray",
+    "difficulty": "Medium",
+    "slug": "frequency-balance-subarray"
+  },
+  {
+    "id": 3961,
+    "title": "Maximize Sum of Device Ratings",
+    "difficulty": "Medium",
+    "slug": "maximize-sum-of-device-ratings"
+  },
+  {
+    "id": 3962,
+    "title": "Maximum Subarray Sum After at Most K Swaps",
+    "difficulty": "Hard",
+    "slug": "maximum-subarray-sum-after-at-most-k-swaps"
   }
 ]
