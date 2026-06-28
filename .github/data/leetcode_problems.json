@@ -19192,5 +19192,29 @@
     "title": "Maximum Total Value",
     "difficulty": "Hard",
     "slug": "maximum-total-value"
+  },
+  {
+    "id": 3974,
+    "title": "Maximum Total Sum of K Selected Elements",
+    "difficulty": "Medium",
+    "slug": "maximum-total-sum-of-k-selected-elements"
+  },
+  {
+    "id": 3975,
+    "title": "Filter Occupied Intervals",
+    "difficulty": "Medium",
+    "slug": "filter-occupied-intervals"
+  },
+  {
+    "id": 3976,
+    "title": "Maximum Subarray Sum After Multiplier",
+    "difficulty": "Medium",
+    "slug": "maximum-subarray-sum-after-multiplier"
+  },
+  {
+    "id": 3977,
+    "title": "Minimum Time to Reach Target With Limited Power",
+    "difficulty": "Hard",
+    "slug": "minimum-time-to-reach-target-with-limited-power"
   }
 ]
