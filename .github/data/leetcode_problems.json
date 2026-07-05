@@ -19216,5 +19216,53 @@
     "title": "Minimum Time to Reach Target With Limited Power",
     "difficulty": "Hard",
     "slug": "minimum-time-to-reach-target-with-limited-power"
+  },
+  {
+    "id": 3978,
+    "title": "Unique Middle Element",
+    "difficulty": "Easy",
+    "slug": "unique-middle-element"
+  },
+  {
+    "id": 3979,
+    "title": "Maximum Valid Pair Sum",
+    "difficulty": "Medium",
+    "slug": "maximum-valid-pair-sum"
+  },
+  {
+    "id": 3980,
+    "title": "Minimum Operations to Transform Binary String",
+    "difficulty": "Medium",
+    "slug": "minimum-operations-to-transform-binary-string"
+  },
+  {
+    "id": 3981,
+    "title": "Count Distinct Ways to Form Target from Two Strings",
+    "difficulty": "Hard",
+    "slug": "count-distinct-ways-to-form-target-from-two-strings"
+  },
+  {
+    "id": 3982,
+    "title": "Sum of Integers with Maximum Digit Range",
+    "difficulty": "Easy",
+    "slug": "sum-of-integers-with-maximum-digit-range"
+  },
+  {
+    "id": 3983,
+    "title": "Subsequence After One Replacement",
+    "difficulty": "Medium",
+    "slug": "subsequence-after-one-replacement"
+  },
+  {
+    "id": 3984,
+    "title": "Divisible Game",
+    "difficulty": "Medium",
+    "slug": "divisible-game"
+  },
+  {
+    "id": 3985,
+    "title": "Palindromic Subarray Sum",
+    "difficulty": "Hard",
+    "slug": "palindromic-subarray-sum"
   }
 ]
