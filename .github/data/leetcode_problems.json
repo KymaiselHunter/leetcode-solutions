@@ -19264,5 +19264,29 @@
     "title": "Palindromic Subarray Sum",
     "difficulty": "Hard",
     "slug": "palindromic-subarray-sum"
+  },
+  {
+    "id": 3986,
+    "title": "Number of Elapsed Seconds Between Two Times",
+    "difficulty": "Easy",
+    "slug": "number-of-elapsed-seconds-between-two-times"
+  },
+  {
+    "id": 3987,
+    "title": "Minimum Total Cost to Process All Elements",
+    "difficulty": "Medium",
+    "slug": "minimum-total-cost-to-process-all-elements"
+  },
+  {
+    "id": 3988,
+    "title": "Create Grid With Exactly K Paths I",
+    "difficulty": "Medium",
+    "slug": "create-grid-with-exactly-k-paths-i"
+  },
+  {
+    "id": 3989,
+    "title": "Maximum Consistent Columns in a Grid",
+    "difficulty": "Hard",
+    "slug": "maximum-consistent-columns-in-a-grid"
   }
 ]
