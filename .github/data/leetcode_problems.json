@@ -19288,5 +19288,53 @@
     "title": "Maximum Consistent Columns in a Grid",
     "difficulty": "Hard",
     "slug": "maximum-consistent-columns-in-a-grid"
+  },
+  {
+    "id": 3992,
+    "title": "Rearrange String to Avoid Character Pair",
+    "difficulty": "Easy",
+    "slug": "rearrange-string-to-avoid-character-pair"
+  },
+  {
+    "id": 3993,
+    "title": "Maximum Value of an Alternating Sequence",
+    "difficulty": "Medium",
+    "slug": "maximum-value-of-an-alternating-sequence"
+  },
+  {
+    "id": 3994,
+    "title": "Minimum Adjacent Swaps to Partition Array",
+    "difficulty": "Medium",
+    "slug": "minimum-adjacent-swaps-to-partition-array"
+  },
+  {
+    "id": 3995,
+    "title": "Minimum Cost to Convert String III",
+    "difficulty": "Hard",
+    "slug": "minimum-cost-to-convert-string-iii"
+  },
+  {
+    "id": 3996,
+    "title": "Even Number of Knight Moves",
+    "difficulty": "Easy",
+    "slug": "even-number-of-knight-moves"
+  },
+  {
+    "id": 3997,
+    "title": "Count Dominant Nodes in a Binary Tree",
+    "difficulty": "Medium",
+    "slug": "count-dominant-nodes-in-a-binary-tree"
+  },
+  {
+    "id": 3998,
+    "title": "Transform Binary String Using Subsequence Sort",
+    "difficulty": "Medium",
+    "slug": "transform-binary-string-using-subsequence-sort"
+  },
+  {
+    "id": 3999,
+    "title": "Minimum Number of String Groups Through Transformations",
+    "difficulty": "Hard",
+    "slug": "minimum-number-of-string-groups-through-transformations"
   }
 ]
