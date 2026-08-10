@@ -156,5 +156,6 @@
 | 3941 | Password Strength | Medium | [Password Strength.py](Password%20Strength/Password%20Strength.py) | null | [OPEN](Password%20Strength) |
 | 3945 | Digit Frequency Score | Easy | [Digit Frequency Score.py](Digit%20Frequency%20Score/Digit%20Frequency%20Score.py) | null | [OPEN](Digit%20Frequency%20Score) |
 | 4014 | Minimum Total Price After Applying Discounts | Medium | [Minimum Total Price After Applying Discounts.py](Minimum%20Total%20Price%20After%20Applying%20Discounts/Minimum%20Total%20Price%20After%20Applying%20Discounts.py) | null | [OPEN](Minimum%20Total%20Price%20After%20Applying%20Discounts) |
+| 4015 | Weighted Sum of a Tree | Medium | [Weighted Sum of a Tree.py](Weighted%20Sum%20of%20a%20Tree/Weighted%20Sum%20of%20a%20Tree.py) | null | [OPEN](Weighted%20Sum%20of%20a%20Tree) |
 
 <!-- SOLUTIONS:END -->
