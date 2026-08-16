@@ -19438,5 +19438,53 @@
     "title": "Peaks in Array II",
     "difficulty": "Hard",
     "slug": "peaks-in-array-ii"
+  },
+  {
+    "id": 4020,
+    "title": "Elevator Requests I",
+    "difficulty": "Easy",
+    "slug": "elevator-requests-i"
+  },
+  {
+    "id": 4021,
+    "title": "Minimum Operations to Make a Rotated Palindrome I",
+    "difficulty": "Medium",
+    "slug": "minimum-operations-to-make-a-rotated-palindrome-i"
+  },
+  {
+    "id": 4022,
+    "title": "K-th Digit in Infinite String",
+    "difficulty": "Medium",
+    "slug": "k-th-digit-in-infinite-string"
+  },
+  {
+    "id": 4023,
+    "title": "Elevator Requests II",
+    "difficulty": "Hard",
+    "slug": "elevator-requests-ii"
+  },
+  {
+    "id": 4024,
+    "title": "Nearest Available Drone",
+    "difficulty": "Easy",
+    "slug": "nearest-available-drone"
+  },
+  {
+    "id": 4025,
+    "title": "Minimize the Maximum Waiting Time at Synchronized Traffic Lights",
+    "difficulty": "Medium",
+    "slug": "minimize-the-maximum-waiting-time-at-synchronized-traffic-lights"
+  },
+  {
+    "id": 4026,
+    "title": "Maximum Gap Between Stations",
+    "difficulty": "Medium",
+    "slug": "maximum-gap-between-stations"
+  },
+  {
+    "id": 4027,
+    "title": "Elevator Requests III",
+    "difficulty": "Hard",
+    "slug": "elevator-requests-iii"
   }
 ]
