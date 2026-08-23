@@ -19486,5 +19486,29 @@
     "title": "Elevator Requests III",
     "difficulty": "Hard",
     "slug": "elevator-requests-iii"
+  },
+  {
+    "id": 4030,
+    "title": "Check ASCII Palindromic",
+    "difficulty": "Easy",
+    "slug": "check-ascii-palindromic"
+  },
+  {
+    "id": 4031,
+    "title": "Find All Numbers Disappeared in an Array II",
+    "difficulty": "Medium",
+    "slug": "find-all-numbers-disappeared-in-an-array-ii"
+  },
+  {
+    "id": 4032,
+    "title": "Longest Subarray With at Most K Distinct Prime Factors",
+    "difficulty": "Medium",
+    "slug": "longest-subarray-with-at-most-k-distinct-prime-factors"
+  },
+  {
+    "id": 4033,
+    "title": "Valid K-Unique Subarrays I",
+    "difficulty": "Hard",
+    "slug": "valid-k-unique-subarrays-i"
   }
 ]
