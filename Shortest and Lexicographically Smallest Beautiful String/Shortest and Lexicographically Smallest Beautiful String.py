@@ -8,10 +8,13 @@ class Solution:
                 stack.append(i)
             
         while len(stack) >= k:
+            curr = s[stack[0]:stack[k-1]+1]
             if not out:
-                out = s[stack[0]:stack[k-1]+1]
-                
-            out = max(out, s[stack[0]:stack[k-1]+1])
+                out = curr
+            elif len(curr) == len(out):
+                out = min(out, s[stack[0]:stack[k-1]+1])
+            else:
+                out = out if len(out) < len(curr) else curr
             
             stack.pop(0)
 
