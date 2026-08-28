@@ -6,26 +6,27 @@ class Solution:
             right: int, 
             down: int
             ) -> List[int]: 
-            # print('test')
+            if row >= down or col >= right:
+                return []
+            
             currRow = row
             currCol = col
             
             out = [matrix[currRow][currCol]]
 
-            if currCol >= right + 1:
-                return out
-
             while currCol < right - 1:
                 currCol += 1
                 out.append(matrix[currRow][currCol])
 
-            # print(currRow, down)
-            if currRow >= down - 1:
+            if row == down - 1:
                 return out
 
             while currRow < down - 1: 
                 currRow += 1
                 out.append(matrix[currRow][currCol])
+
+            if col == right - 1:
+                return out
 
             while currCol > col:
                 currCol -= 1
