@@ -36,8 +36,6 @@ class Solution:
 
         rightInsert = left
 
-        print(leftInsert, rightInsert)
-
         leftOut = intervals[0:leftInsert]
         rightOut = intervals[rightInsert::]
 
