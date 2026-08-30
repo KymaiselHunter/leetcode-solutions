@@ -19376,7 +19376,7 @@
   {
     "id": 4007,
     "title": "Widest Possible Fence",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "slug": "widest-possible-fence"
   },
   {
@@ -19510,5 +19510,53 @@
     "title": "Valid K-Unique Subarrays I",
     "difficulty": "Hard",
     "slug": "valid-k-unique-subarrays-i"
+  },
+  {
+    "id": 4034,
+    "title": "Minimum Bishop Moves to Reach Target",
+    "difficulty": "Medium",
+    "slug": "minimum-bishop-moves-to-reach-target"
+  },
+  {
+    "id": 4035,
+    "title": "Maximum Valid Split Positions I",
+    "difficulty": "Medium",
+    "slug": "maximum-valid-split-positions-i"
+  },
+  {
+    "id": 4036,
+    "title": "Lexicographically Largest String After Pair Transformations",
+    "difficulty": "Medium",
+    "slug": "lexicographically-largest-string-after-pair-transformations"
+  },
+  {
+    "id": 4037,
+    "title": "Maximum Valid Split Positions II",
+    "difficulty": "Hard",
+    "slug": "maximum-valid-split-positions-ii"
+  },
+  {
+    "id": 4038,
+    "title": "Count Integers Appearing in a Single Block",
+    "difficulty": "Easy",
+    "slug": "count-integers-appearing-in-a-single-block"
+  },
+  {
+    "id": 4039,
+    "title": "Sum of Decoded Numbers",
+    "difficulty": "Medium",
+    "slug": "sum-of-decoded-numbers"
+  },
+  {
+    "id": 4040,
+    "title": "Minimum Operations to Form Subset Sum I",
+    "difficulty": "Medium",
+    "slug": "minimum-operations-to-form-subset-sum-i"
+  },
+  {
+    "id": 4041,
+    "title": "Minimum Operations to Form Subset Sum II",
+    "difficulty": "Hard",
+    "slug": "minimum-operations-to-form-subset-sum-ii"
   }
 ]
