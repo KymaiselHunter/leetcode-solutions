@@ -22,6 +22,7 @@
 | 101 | Symmetric Tree | Easy | [Symmetric Tree.py](Symmetric%20Tree/Symmetric%20Tree.py) | null | [OPEN](Symmetric%20Tree) |
 | 104 | Maximum Depth of Binary Tree | Easy | null | [Maximum Depth of Binary Tree.cpp](Maximum%20Depth%20of%20Binary%20Tree/Maximum%20Depth%20of%20Binary%20Tree.cpp) | [OPEN](Maximum%20Depth%20of%20Binary%20Tree) |
 | 108 | Convert Sorted Array to Binary Search Tree | Easy | [Convert Sorted Array to Binary Search Tree.py](Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py) | null | [OPEN](Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree) |
+| 121 | Best Time to Buy and Sell Stock | Easy | [Best Time to Buy and Sell Stock.py](Best%20Time%20to%20Buy%20and%20Sell%20Stock/Best%20Time%20to%20Buy%20and%20Sell%20Stock.py) | null | [OPEN](Best%20Time%20to%20Buy%20and%20Sell%20Stock) |
 | 141 | Linked List Cycle | Easy | null | [Linked List Cycle.cpp](Linked%20List%20Cycle/Linked%20List%20Cycle.cpp) | [OPEN](Linked%20List%20Cycle) |
 | 144 | Binary Tree Preorder Traversal | Easy | [Binary Tree Preorder Traversal.py](Binary%20Tree%20Preorder%20Traversal/Binary%20Tree%20Preorder%20Traversal.py) | null | [OPEN](Binary%20Tree%20Preorder%20Traversal) |
 | 145 | Binary Tree Postorder Traversal | Easy | [Binary Tree Postorder Traversal.py](Binary%20Tree%20Postorder%20Traversal/Binary%20Tree%20Postorder%20Traversal.py) | null | [OPEN](Binary%20Tree%20Postorder%20Traversal) |
