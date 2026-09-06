@@ -19558,5 +19558,29 @@
     "title": "Minimum Operations to Form Subset Sum II",
     "difficulty": "Hard",
     "slug": "minimum-operations-to-form-subset-sum-ii"
+  },
+  {
+    "id": 4043,
+    "title": "Count Rotations With Exactly K Equal Adjacent Pairs",
+    "difficulty": "Easy",
+    "slug": "count-rotations-with-exactly-k-equal-adjacent-pairs"
+  },
+  {
+    "id": 4044,
+    "title": "Count Good Cyclic Rotations",
+    "difficulty": "Medium",
+    "slug": "count-good-cyclic-rotations"
+  },
+  {
+    "id": 4045,
+    "title": "Count Robot Groups",
+    "difficulty": "Medium",
+    "slug": "count-robot-groups"
+  },
+  {
+    "id": 4046,
+    "title": "Minimum Cost Path With At Most K Turns",
+    "difficulty": "Hard",
+    "slug": "minimum-cost-path-with-at-most-k-turns"
   }
 ]
