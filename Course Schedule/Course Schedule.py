@@ -5,20 +5,27 @@ class Solution:
         for i in range(len(prerequisites)):
             mp[prerequisites[i][0]].append(prerequisites[i][1])
 
-        def recur(dfs, prerequisites) -> bool:
-            for num in mp[dfs[-1]]:
+        cache = set()
+
+        def recur(prev, dfs) -> bool:
+            for num in mp[prev]:
+                if prev in cache:
+                    return True
+                
                 if num in dfs:
                     return False
                 
-                dfs.append(num)
-                if not recur(dfs, prerequisites):
+                dfs.add(num)
+                if not recur(num, dfs):
                     return False
-                dfs.pop(-1)
+                dfs.remove(num)
+                cache.add(num)
             return True
 
         for i in range(numCourses):
-            dfs = [i]
-            if not recur(dfs, prerequisites):
+            dfs = set()
+            dfs.add(i)
+            if not recur(i, dfs):
                 return False
 
         return True
