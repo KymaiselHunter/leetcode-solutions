@@ -6,4 +6,4 @@ class Solution:
         small = n % 1000
         big = n // 1000
 
-        return (100 * (big - 1)) + (small + 1)
+        return (1000 * (big - 1)) + (small + 1)
