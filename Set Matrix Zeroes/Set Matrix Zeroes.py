@@ -12,7 +12,7 @@ class Solution:
                     rows.add(i)
                     cols.add(j)
 
-        print(rows, cols)
+        # print(rows, cols)
         rows = list(rows)
         cols = list(cols)
 
