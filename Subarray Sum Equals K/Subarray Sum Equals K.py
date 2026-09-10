@@ -1,18 +1,21 @@
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
-        prefix = list()
-        curr = 0
-        for num in nums:
-            curr += num
-            prefix.append(curr)
-
-        count = dict()
+        d = dict()
         out = 0
+        curr = 0
 
-        for index, num in enumerate(prefix):
-            out += (num == k)
-            out += count[num-k] if num-k in count else 0
+        for index, num in enumerate(nums):
+            curr += num
 
-            count[num] = 1 if not num in count else count[num] + 1
+            if curr == k:
+                out += 1
+
+            if curr - k in d:
+                out += d[curr-k] 
+
+            if curr in d:
+                d[curr] += 1
+            else:
+                d[curr] = 1
 
         return out
