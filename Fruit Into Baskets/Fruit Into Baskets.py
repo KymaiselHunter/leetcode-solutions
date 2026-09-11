@@ -6,7 +6,7 @@ class Solution:
         # right to left
         for i in range(len(fruits)-1,-1,-1):
             # get curr fruit 
-            currFruit = d[i]
+            currFruit = fruits[i]
 
             # keep track of fruits in current
             # left value will be count, right value will be left most occurence
@@ -15,4 +15,13 @@ class Solution:
             else:
                 d[currFruit] = (d[currFruit][0] + 1, i)
 
+            # if there's more than two fruits, remove
+            if len(d) > 2:
+                # if there's more than two fruits, remove the third
+                rightFruit = max(d.items(), key=lambda item: item[1])[0]
+                d.pop(rightFruit)
+            
             # if there's only two fruits, we should add up
+            out = max(out, sum(k[0] for k in d.values()))
+
+        return out
