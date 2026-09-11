@@ -56,6 +56,7 @@
 | 374 | Guess Number Higher or Lower | Easy | null | [Guess Number Higher or Lower.cpp](Guess%20Number%20Higher%20or%20Lower/Guess%20Number%20Higher%20or%20Lower.cpp) | [OPEN](Guess%20Number%20Higher%20or%20Lower) |
 | 392 | Is Subsequence | Easy | [Is Subsequence.py](Is%20Subsequence/Is%20Subsequence.py) | null | [OPEN](Is%20Subsequence) |
 | 396 | Rotate Function | Medium | [Rotate Function.py](Rotate%20Function/Rotate%20Function.py) | null | [OPEN](Rotate%20Function) |
+| 424 | Longest Repeating Character Replacement | Medium | [Longest Repeating Character Replacement.py](Longest%20Repeating%20Character%20Replacement/Longest%20Repeating%20Character%20Replacement.py) | null | [OPEN](Longest%20Repeating%20Character%20Replacement) |
 | 438 | Find All Anagrams in a String | Medium | [Find All Anagrams in a String.py](Find%20All%20Anagrams%20in%20a%20String/Find%20All%20Anagrams%20in%20a%20String.py) | null | [OPEN](Find%20All%20Anagrams%20in%20a%20String) |
 | 448 | Find All Numbers Disappeared in an Array | Easy | [Find All Numbers Disappeared in an Array.py](Find%20All%20Numbers%20Disappeared%20in%20an%20Array/Find%20All%20Numbers%20Disappeared%20in%20an%20Array.py) | null | [OPEN](Find%20All%20Numbers%20Disappeared%20in%20an%20Array) |
 | 450 | Delete Node in a BST | Medium | [Delete Node in a BST.py](Delete%20Node%20in%20a%20BST/Delete%20Node%20in%20a%20BST.py) | null | [OPEN](Delete%20Node%20in%20a%20BST) |
