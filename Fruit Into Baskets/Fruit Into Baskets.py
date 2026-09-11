@@ -18,7 +18,9 @@ class Solution:
             # if there's more than two fruits, remove
             if len(d) > 2:
                 # if there's more than two fruits, remove the third
-                rightFruit = max(d.items(), key=lambda item: item[1])[0]
+                rightFruit = max(d.items(), key=lambda item: item[1][1])[0]
+                # print(d.items())
+                # print(rightFruit)
                 d.pop(rightFruit)
 
                 # update the fruit that wasnt removed
@@ -29,6 +31,6 @@ class Solution:
             
             # if there's only two fruits, we should add up
             out = max(out, sum(k[0] for k in d.values()))
-            # print(out, d)
+            print(out, d)
 
         return out
