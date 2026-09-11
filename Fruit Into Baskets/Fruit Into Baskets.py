@@ -20,8 +20,15 @@ class Solution:
                 # if there's more than two fruits, remove the third
                 rightFruit = max(d.items(), key=lambda item: item[1])[0]
                 d.pop(rightFruit)
+
+                # update the fruit that wasnt removed
+                for key in d.keys():
+                    if key == currFruit:
+                        continue
+                    d[key] = (d[key][1] - i, d[key][1])
             
             # if there's only two fruits, we should add up
             out = max(out, sum(k[0] for k in d.values()))
+            # print(out, d)
 
         return out
