@@ -13,6 +13,7 @@ class Solution:
             currMax = max(d, key=d.get)
             
             # length of current substring - amount of non max chars
+            print(i)
             currSubstring = (i + 1) - left
             while currSubstring - d[currMax] > k:
                 leftChar = s[left]
@@ -23,6 +24,7 @@ class Solution:
                     d.pop(leftChar)
 
                 currSubstring = (i + 1) - left
+                currMax = max(d, key=d.get)
             
             out = max(out, currSubstring)
 
