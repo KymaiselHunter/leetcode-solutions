@@ -19582,5 +19582,53 @@
     "title": "Minimum Cost Path With At Most K Turns",
     "difficulty": "Hard",
     "slug": "minimum-cost-path-with-at-most-k-turns"
+  },
+  {
+    "id": 4048,
+    "title": "Count Values With Equally Spaced Occurrences I",
+    "difficulty": "Easy",
+    "slug": "count-values-with-equally-spaced-occurrences-i"
+  },
+  {
+    "id": 4049,
+    "title": "Count Values With Equally Spaced Occurrences II",
+    "difficulty": "Medium",
+    "slug": "count-values-with-equally-spaced-occurrences-ii"
+  },
+  {
+    "id": 4050,
+    "title": "Minimum Days to Score Exactly N Points",
+    "difficulty": "Medium",
+    "slug": "minimum-days-to-score-exactly-n-points"
+  },
+  {
+    "id": 4051,
+    "title": "Count Subarrays with Distant Sums",
+    "difficulty": "Hard",
+    "slug": "count-subarrays-with-distant-sums"
+  },
+  {
+    "id": 4052,
+    "title": "Cyclically Shift Rows and Columns",
+    "difficulty": "Easy",
+    "slug": "cyclically-shift-rows-and-columns"
+  },
+  {
+    "id": 4053,
+    "title": "Minimum Operations to Make Every Element Palindromic",
+    "difficulty": "Medium",
+    "slug": "minimum-operations-to-make-every-element-palindromic"
+  },
+  {
+    "id": 4054,
+    "title": "Count Shadow Pairs I",
+    "difficulty": "Medium",
+    "slug": "count-shadow-pairs-i"
+  },
+  {
+    "id": 4055,
+    "title": "Count Shadow Pairs II",
+    "difficulty": "Hard",
+    "slug": "count-shadow-pairs-ii"
   }
 ]
