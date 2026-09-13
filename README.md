@@ -18,6 +18,7 @@
 | 49 | Group Anagrams | Medium | [Group Anagrams.py](Group%20Anagrams/Group%20Anagrams.py) | [Group Anagrams.cpp](Group%20Anagrams/Group%20Anagrams.cpp) | [OPEN](Group%20Anagrams) |
 | 54 | Spiral Matrix | Medium | [Spiral Matrix.py](Spiral%20Matrix/Spiral%20Matrix.py) | null | [OPEN](Spiral%20Matrix) |
 | 57 | Insert Interval | Medium | [Insert Interval.py](Insert%20Interval/Insert%20Interval.py) | null | [OPEN](Insert%20Interval) |
+| 59 | Spiral Matrix II | Medium | [Spiral Matrix II.py](Spiral%20Matrix%20II/Spiral%20Matrix%20II.py) | null | [OPEN](Spiral%20Matrix%20II) |
 | 61 | Rotate List | Medium | [Rotate List.py](Rotate%20List/Rotate%20List.py) | null | [OPEN](Rotate%20List) |
 | 66 | Plus One | Easy | [Plus One.py](Plus%20One/Plus%20One.py) | null | [OPEN](Plus%20One) |
 | 73 | Set Matrix Zeroes | Medium | [Set Matrix Zeroes.py](Set%20Matrix%20Zeroes/Set%20Matrix%20Zeroes.py) | null | [OPEN](Set%20Matrix%20Zeroes) |
